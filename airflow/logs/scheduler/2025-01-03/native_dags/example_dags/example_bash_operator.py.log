@@ -1,0 +1,29 @@
+[2025-01-03T21:35:29.524+0100] {processor.py:186} INFO - Started process (PID=80789) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-01-03T21:35:29.529+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2025-01-03T21:35:29.530+0100] {logging_mixin.py:190} INFO - [2025-01-03T21:35:29.530+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-01-03T21:35:29.556+0100] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-01-03T21:35:29.851+0100] {logging_mixin.py:190} INFO - [2025-01-03T21:35:29.850+0100] {override.py:1912} INFO - Created Permission View: can delete on DAG:example_bash_operator
+[2025-01-03T21:35:29.864+0100] {logging_mixin.py:190} INFO - [2025-01-03T21:35:29.863+0100] {override.py:1912} INFO - Created Permission View: can edit on DAG:example_bash_operator
+[2025-01-03T21:35:29.872+0100] {logging_mixin.py:190} INFO - [2025-01-03T21:35:29.871+0100] {override.py:1912} INFO - Created Permission View: can read on DAG:example_bash_operator
+[2025-01-03T21:35:29.885+0100] {logging_mixin.py:190} INFO - [2025-01-03T21:35:29.884+0100] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:example_bash_operator
+[2025-01-03T21:35:29.895+0100] {logging_mixin.py:190} INFO - [2025-01-03T21:35:29.894+0100] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:example_bash_operator
+[2025-01-03T21:35:29.902+0100] {logging_mixin.py:190} INFO - [2025-01-03T21:35:29.902+0100] {override.py:1912} INFO - Created Permission View: can create on DAG Run:example_bash_operator
+[2025-01-03T21:35:29.913+0100] {logging_mixin.py:190} INFO - [2025-01-03T21:35:29.912+0100] {override.py:1912} INFO - Created Permission View: can read on DAG Run:example_bash_operator
+[2025-01-03T21:35:29.913+0100] {logging_mixin.py:190} INFO - [2025-01-03T21:35:29.913+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T21:35:29.925+0100] {logging_mixin.py:190} INFO - [2025-01-03T21:35:29.925+0100] {dag.py:3262} INFO - Creating ORM DAG for example_bash_operator
+[2025-01-03T21:35:29.932+0100] {logging_mixin.py:190} INFO - [2025-01-03T21:35:29.932+0100] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2025-01-02 00:00:00+00:00, run_after=2025-01-03 00:00:00+00:00
+[2025-01-03T21:35:29.954+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.439 seconds
+[2025-01-03T21:41:47.602+0100] {processor.py:186} INFO - Started process (PID=83571) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-01-03T21:41:47.607+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2025-01-03T21:41:47.608+0100] {logging_mixin.py:190} INFO - [2025-01-03T21:41:47.608+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-01-03T21:41:47.629+0100] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-01-03T21:41:47.768+0100] {logging_mixin.py:190} INFO - [2025-01-03T21:41:47.767+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T21:41:47.782+0100] {logging_mixin.py:190} INFO - [2025-01-03T21:41:47.782+0100] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2025-01-02 00:00:00+00:00, run_after=2025-01-03 00:00:00+00:00
+[2025-01-03T21:41:47.803+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.209 seconds
+[2025-01-03T21:48:06.632+0100] {processor.py:186} INFO - Started process (PID=86366) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-01-03T21:48:06.638+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2025-01-03T21:48:06.639+0100] {logging_mixin.py:190} INFO - [2025-01-03T21:48:06.639+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-01-03T21:48:06.664+0100] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-01-03T21:48:06.857+0100] {logging_mixin.py:190} INFO - [2025-01-03T21:48:06.856+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-03T21:48:06.881+0100] {logging_mixin.py:190} INFO - [2025-01-03T21:48:06.881+0100] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2025-01-02 00:00:00+00:00, run_after=2025-01-03 00:00:00+00:00
+[2025-01-03T21:48:06.905+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.283 seconds

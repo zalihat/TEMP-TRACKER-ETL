@@ -1,0 +1,7 @@
+[2025-01-11T11:42:52.935+0100] {processor.py:186} INFO - Started process (PID=14266) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-11T11:42:52.941+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-01-11T11:42:52.942+0100] {logging_mixin.py:190} INFO - [2025-01-11T11:42:52.942+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-11T11:42:53.013+0100] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-01-11T11:42:53.191+0100] {logging_mixin.py:190} INFO - [2025-01-11T11:42:53.189+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-11T11:42:53.224+0100] {logging_mixin.py:190} INFO - [2025-01-11T11:42:53.224+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-01-11 10:40:00+00:00, run_after=2025-01-11 10:42:00+00:00
+[2025-01-11T11:42:53.253+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.326 seconds

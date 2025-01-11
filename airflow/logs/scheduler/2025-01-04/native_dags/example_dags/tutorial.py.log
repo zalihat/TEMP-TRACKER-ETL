@@ -1,0 +1,49 @@
+[2025-01-04T17:24:27.222+0100] {processor.py:186} INFO - Started process (PID=98108) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:24:27.228+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-01-04T17:24:27.229+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:24:27.228+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:24:27.244+0100] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:24:27.412+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:24:27.411+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T17:24:27.432+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:24:27.432+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-01-03 00:00:00+00:00, run_after=2025-01-04 00:00:00+00:00
+[2025-01-04T17:24:27.453+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.239 seconds
+[2025-01-04T17:28:04.628+0100] {processor.py:186} INFO - Started process (PID=98850) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:28:04.636+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-01-04T17:28:04.637+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:28:04.637+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:28:04.654+0100] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:28:04.832+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:28:04.831+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T17:28:04.859+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:28:04.859+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-01-03 00:00:00+00:00, run_after=2025-01-04 00:00:00+00:00
+[2025-01-04T17:28:04.884+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.266 seconds
+[2025-01-04T17:31:08.176+0100] {processor.py:186} INFO - Started process (PID=99468) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:31:08.182+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-01-04T17:31:08.183+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:31:08.182+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:31:08.197+0100] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:31:08.332+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:31:08.332+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T17:31:08.351+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:31:08.350+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-01-03 00:00:00+00:00, run_after=2025-01-04 00:00:00+00:00
+[2025-01-04T17:31:08.372+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.204 seconds
+[2025-01-04T17:34:01.175+0100] {processor.py:186} INFO - Started process (PID=152) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:34:01.180+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-01-04T17:34:01.181+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:34:01.181+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:34:01.197+0100] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:34:01.340+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:34:01.339+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T17:34:01.359+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:34:01.359+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-01-03 00:00:00+00:00, run_after=2025-01-04 00:00:00+00:00
+[2025-01-04T17:34:01.381+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.214 seconds
+[2025-01-04T17:37:00.820+0100] {processor.py:186} INFO - Started process (PID=1093) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:37:00.825+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-01-04T17:37:00.826+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:37:00.826+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:37:00.842+0100] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:37:00.989+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:37:00.989+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T17:37:01.009+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:37:01.008+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-01-03 00:00:00+00:00, run_after=2025-01-04 00:00:00+00:00
+[2025-01-04T17:37:01.030+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.218 seconds
+[2025-01-04T17:39:52.497+0100] {processor.py:186} INFO - Started process (PID=1689) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:39:52.502+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-01-04T17:39:52.503+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:39:52.503+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:39:52.517+0100] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:39:52.651+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:39:52.651+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T17:39:52.668+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:39:52.668+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-01-03 00:00:00+00:00, run_after=2025-01-04 00:00:00+00:00
+[2025-01-04T17:39:52.688+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.198 seconds
+[2025-01-04T17:44:42.305+0100] {processor.py:186} INFO - Started process (PID=3007) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:44:42.310+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-01-04T17:44:42.311+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:44:42.311+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:44:42.325+0100] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2025-01-04T17:44:42.463+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:44:42.463+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T17:44:42.482+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:44:42.482+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-01-03 00:00:00+00:00, run_after=2025-01-04 00:00:00+00:00
+[2025-01-04T17:44:42.502+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.205 seconds

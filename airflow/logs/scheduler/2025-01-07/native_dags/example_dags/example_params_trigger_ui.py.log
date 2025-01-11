@@ -1,0 +1,21 @@
+[2025-01-07T10:31:43.217+0100] {processor.py:186} INFO - Started process (PID=85123) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-01-07T10:31:43.222+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-01-07T10:31:43.223+0100] {logging_mixin.py:190} INFO - [2025-01-07T10:31:43.222+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-01-07T10:31:43.285+0100] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-01-07T10:31:43.444+0100] {logging_mixin.py:190} INFO - [2025-01-07T10:31:43.443+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-07T10:31:43.453+0100] {logging_mixin.py:190} INFO - [2025-01-07T10:31:43.453+0100] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-01-07T10:31:43.473+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.264 seconds
+[2025-01-07T20:39:45.663+0100] {processor.py:186} INFO - Started process (PID=65971) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-01-07T20:39:45.669+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-01-07T20:39:45.671+0100] {logging_mixin.py:190} INFO - [2025-01-07T20:39:45.670+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-01-07T20:39:45.836+0100] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-01-07T20:39:45.961+0100] {logging_mixin.py:190} INFO - [2025-01-07T20:39:45.961+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-07T20:39:45.971+0100] {logging_mixin.py:190} INFO - [2025-01-07T20:39:45.971+0100] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-01-07T20:39:45.990+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.336 seconds
+[2025-01-07T21:06:07.786+0100] {processor.py:186} INFO - Started process (PID=74963) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-01-07T21:06:07.791+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-01-07T21:06:07.793+0100] {logging_mixin.py:190} INFO - [2025-01-07T21:06:07.792+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-01-07T21:06:07.889+0100] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-01-07T21:06:08.004+0100] {logging_mixin.py:190} INFO - [2025-01-07T21:06:08.003+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-07T21:06:08.012+0100] {logging_mixin.py:190} INFO - [2025-01-07T21:06:08.012+0100] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-01-07T21:06:08.031+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.252 seconds

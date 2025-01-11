@@ -1,0 +1,21 @@
+[2025-01-07T10:31:50.963+0100] {processor.py:186} INFO - Started process (PID=85168) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-01-07T10:31:50.969+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-01-07T10:31:50.969+0100] {logging_mixin.py:190} INFO - [2025-01-07T10:31:50.969+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-01-07T10:31:51.033+0100] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-01-07T10:31:51.170+0100] {logging_mixin.py:190} INFO - [2025-01-07T10:31:51.170+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-07T10:31:51.186+0100] {logging_mixin.py:190} INFO - [2025-01-07T10:31:51.186+0100] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-07T10:31:51.205+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.250 seconds
+[2025-01-07T20:39:54.017+0100] {processor.py:186} INFO - Started process (PID=66015) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-01-07T20:39:54.023+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-01-07T20:39:54.024+0100] {logging_mixin.py:190} INFO - [2025-01-07T20:39:54.024+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-01-07T20:39:54.088+0100] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-01-07T20:39:54.240+0100] {logging_mixin.py:190} INFO - [2025-01-07T20:39:54.239+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-07T20:39:54.258+0100] {logging_mixin.py:190} INFO - [2025-01-07T20:39:54.258+0100] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-07T20:39:54.278+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.268 seconds
+[2025-01-07T21:06:13.110+0100] {processor.py:186} INFO - Started process (PID=74997) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-01-07T21:06:13.114+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-01-07T21:06:13.115+0100] {logging_mixin.py:190} INFO - [2025-01-07T21:06:13.115+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-01-07T21:06:13.174+0100] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-01-07T21:06:13.323+0100] {logging_mixin.py:190} INFO - [2025-01-07T21:06:13.323+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-07T21:06:13.340+0100] {logging_mixin.py:190} INFO - [2025-01-07T21:06:13.340+0100] {dag.py:4180} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-07T21:06:13.362+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.259 seconds

@@ -1,0 +1,35 @@
+[2025-01-04T17:23:49.633+0100] {processor.py:186} INFO - Started process (PID=97989) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:23:49.639+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-01-04T17:23:49.640+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:23:49.640+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:23:49.645+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:23:49.781+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.156 seconds
+[2025-01-04T17:27:22.393+0100] {processor.py:186} INFO - Started process (PID=98709) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:27:22.397+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-01-04T17:27:22.398+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:27:22.398+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:27:22.403+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:27:22.551+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.167 seconds
+[2025-01-04T17:30:34.345+0100] {processor.py:186} INFO - Started process (PID=99356) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:30:34.350+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-01-04T17:30:34.351+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:30:34.350+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:30:34.355+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:30:34.476+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.139 seconds
+[2025-01-04T17:33:26.644+0100] {processor.py:186} INFO - Started process (PID=99912) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:33:26.649+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-01-04T17:33:26.650+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:33:26.649+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:33:26.654+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:33:26.778+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.141 seconds
+[2025-01-04T17:36:25.501+0100] {processor.py:186} INFO - Started process (PID=974) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:36:25.507+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-01-04T17:36:25.508+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:36:25.507+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:36:25.512+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:36:25.647+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.154 seconds
+[2025-01-04T17:39:16.631+0100] {processor.py:186} INFO - Started process (PID=1557) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:39:16.635+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-01-04T17:39:16.636+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:39:16.636+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:39:16.640+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:39:16.770+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.147 seconds
+[2025-01-04T17:43:55.524+0100] {processor.py:186} INFO - Started process (PID=2874) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:43:55.529+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-01-04T17:43:55.530+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:43:55.529+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:43:55.534+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-04T17:43:55.659+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.144 seconds

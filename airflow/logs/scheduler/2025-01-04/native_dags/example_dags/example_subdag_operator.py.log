@@ -1,0 +1,91 @@
+[2025-01-04T17:25:00.253+0100] {processor.py:186} INFO - Started process (PID=98213) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:25:00.259+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-01-04T17:25:00.260+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:25:00.260+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:25:00.404+0100] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:25:00.424+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:25:00.424+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-01-04T17:25:00.451+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:25:00.451+0100] {dag.py:3239} INFO - Sync 3 DAGs
+[2025-01-04T17:25:00.465+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:25:00.465+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-01-04T17:25:00.467+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:25:00.467+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-01-04T17:25:00.469+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:25:00.469+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-01-04T17:25:00.474+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:25:00.474+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-01-04T17:25:00.477+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:25:00.477+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-01-04T17:25:00.477+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:25:00.477+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-01-04T17:25:00.491+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.245 seconds
+[2025-01-04T17:28:42.256+0100] {processor.py:186} INFO - Started process (PID=98964) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:28:42.261+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-01-04T17:28:42.262+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:28:42.262+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:28:42.436+0100] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:28:42.458+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:28:42.458+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-01-04T17:28:42.496+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:28:42.496+0100] {dag.py:3239} INFO - Sync 3 DAGs
+[2025-01-04T17:28:42.514+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:28:42.514+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-01-04T17:28:42.517+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:28:42.517+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-01-04T17:28:42.520+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:28:42.520+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-01-04T17:28:42.526+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:28:42.526+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-01-04T17:28:42.531+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:28:42.531+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-01-04T17:28:42.531+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:28:42.531+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-01-04T17:28:42.547+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.301 seconds
+[2025-01-04T17:31:41.171+0100] {processor.py:186} INFO - Started process (PID=99581) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:31:41.176+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-01-04T17:31:41.177+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:31:41.177+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:31:41.323+0100] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:31:41.343+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:31:41.343+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-01-04T17:31:41.371+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:31:41.370+0100] {dag.py:3239} INFO - Sync 3 DAGs
+[2025-01-04T17:31:41.384+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:31:41.384+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-01-04T17:31:41.387+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:31:41.386+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-01-04T17:31:41.389+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:31:41.389+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-01-04T17:31:41.394+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:31:41.394+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-01-04T17:31:41.397+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:31:41.397+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-01-04T17:31:41.397+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:31:41.397+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-01-04T17:31:41.412+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.249 seconds
+[2025-01-04T17:34:35.372+0100] {processor.py:186} INFO - Started process (PID=403) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:34:35.378+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-01-04T17:34:35.379+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:34:35.379+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:34:35.529+0100] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:34:35.549+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:34:35.549+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-01-04T17:34:35.577+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:34:35.577+0100] {dag.py:3239} INFO - Sync 3 DAGs
+[2025-01-04T17:34:35.592+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:34:35.592+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-01-04T17:34:35.595+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:34:35.594+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-01-04T17:34:35.596+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:34:35.596+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-01-04T17:34:35.602+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:34:35.602+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-01-04T17:34:35.605+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:34:35.605+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-01-04T17:34:35.606+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:34:35.606+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-01-04T17:34:35.621+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.257 seconds
+[2025-01-04T17:37:31.951+0100] {processor.py:186} INFO - Started process (PID=1211) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:37:31.957+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-01-04T17:37:31.958+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:37:31.958+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:37:32.108+0100] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:37:32.129+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:37:32.129+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-01-04T17:37:32.158+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:37:32.157+0100] {dag.py:3239} INFO - Sync 3 DAGs
+[2025-01-04T17:37:32.173+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:37:32.172+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-01-04T17:37:32.175+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:37:32.175+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-01-04T17:37:32.177+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:37:32.177+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-01-04T17:37:32.182+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:37:32.182+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-01-04T17:37:32.185+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:37:32.185+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-01-04T17:37:32.186+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:37:32.186+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-01-04T17:37:32.202+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.259 seconds
+[2025-01-04T17:40:32.458+0100] {processor.py:186} INFO - Started process (PID=1817) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:40:32.463+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-01-04T17:40:32.464+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:40:32.464+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:40:32.607+0100] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:40:32.626+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:40:32.626+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-01-04T17:40:32.655+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:40:32.654+0100] {dag.py:3239} INFO - Sync 3 DAGs
+[2025-01-04T17:40:32.669+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:40:32.669+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-01-04T17:40:32.671+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:40:32.671+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-01-04T17:40:32.673+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:40:32.673+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-01-04T17:40:32.679+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:40:32.679+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-01-04T17:40:32.683+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:40:32.683+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-01-04T17:40:32.683+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:40:32.683+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-01-04T17:40:32.696+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.246 seconds
+[2025-01-04T17:45:28.424+0100] {processor.py:186} INFO - Started process (PID=3140) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:45:28.430+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-01-04T17:45:28.430+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:45:28.430+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:45:28.577+0100] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-01-04T17:45:28.596+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:45:28.595+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-01-04T17:45:28.623+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:45:28.623+0100] {dag.py:3239} INFO - Sync 3 DAGs
+[2025-01-04T17:45:28.637+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:45:28.637+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-01-04T17:45:28.639+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:45:28.639+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-01-04T17:45:28.641+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:45:28.641+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-01-04T17:45:28.647+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:45:28.647+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-01-04T17:45:28.650+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:45:28.650+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-01-04T17:45:28.650+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:45:28.650+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-01-04T17:45:28.665+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.249 seconds

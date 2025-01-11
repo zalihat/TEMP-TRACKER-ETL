@@ -1,0 +1,24 @@
+[2025-01-06T01:55:40.943+0100] {processor.py:186} INFO - Started process (PID=4865) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-01-06T01:55:40.949+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-01-06T01:55:40.950+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:55:40.950+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-01-06T01:55:40.975+0100] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-01-06T01:55:41.107+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:55:41.107+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-01-06T01:55:41.148+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:55:41.148+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-06T01:55:41.157+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:55:41.157+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-01-06T01:55:41.178+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 0.243 seconds
+[2025-01-06T16:17:09.936+0100] {processor.py:186} INFO - Started process (PID=17099) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-01-06T16:17:09.942+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-01-06T16:17:09.944+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:17:09.943+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-01-06T16:17:09.972+0100] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-01-06T16:17:10.114+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:17:10.114+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-01-06T16:17:10.189+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:17:10.189+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-06T16:17:10.199+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:17:10.199+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-01-06T16:17:10.221+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 0.292 seconds
+[2025-01-06T16:22:35.631+0100] {processor.py:186} INFO - Started process (PID=19592) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-01-06T16:22:35.636+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-01-06T16:22:35.638+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:22:35.637+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-01-06T16:22:35.671+0100] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2025-01-06T16:22:35.833+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:22:35.832+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-01-06T16:22:35.909+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:22:35.909+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-06T16:22:35.929+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:22:35.928+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-01-06T16:22:35.974+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 0.351 seconds

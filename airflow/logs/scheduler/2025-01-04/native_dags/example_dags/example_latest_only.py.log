@@ -1,0 +1,42 @@
+[2025-01-04T17:26:06.981+0100] {processor.py:186} INFO - Started process (PID=98430) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:26:06.987+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-01-04T17:26:06.988+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:26:06.988+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:26:07.005+0100] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:26:07.157+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:26:07.157+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T17:26:07.180+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:26:07.180+0100] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-01-04 12:00:00+00:00, run_after=2025-01-04 16:00:00+00:00
+[2025-01-04T17:26:07.202+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.230 seconds
+[2025-01-04T17:29:51.267+0100] {processor.py:186} INFO - Started process (PID=99213) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:29:51.291+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-01-04T17:29:51.293+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:29:51.293+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:29:51.313+0100] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:29:51.463+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:29:51.463+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T17:29:51.485+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:29:51.485+0100] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-01-04 12:00:00+00:00, run_after=2025-01-04 16:00:00+00:00
+[2025-01-04T17:29:51.506+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.247 seconds
+[2025-01-04T17:32:44.204+0100] {processor.py:186} INFO - Started process (PID=99775) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:32:44.209+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-01-04T17:32:44.211+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:32:44.210+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:32:44.226+0100] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:32:44.365+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:32:44.364+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T17:32:44.383+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:32:44.383+0100] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-01-04 12:00:00+00:00, run_after=2025-01-04 16:00:00+00:00
+[2025-01-04T17:32:44.404+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.207 seconds
+[2025-01-04T17:35:41.815+0100] {processor.py:186} INFO - Started process (PID=640) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:35:41.823+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-01-04T17:35:41.824+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:35:41.824+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:35:41.842+0100] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:35:41.994+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:35:41.994+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T17:35:42.015+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:35:42.015+0100] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-01-04 12:00:00+00:00, run_after=2025-01-04 16:00:00+00:00
+[2025-01-04T17:35:42.038+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.231 seconds
+[2025-01-04T17:38:35.459+0100] {processor.py:186} INFO - Started process (PID=1429) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:38:35.465+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-01-04T17:38:35.466+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:38:35.465+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:38:35.481+0100] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:38:35.627+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:38:35.627+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T17:38:35.648+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:38:35.648+0100] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-01-04 12:00:00+00:00, run_after=2025-01-04 16:00:00+00:00
+[2025-01-04T17:38:35.670+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.218 seconds
+[2025-01-04T17:42:53.870+0100] {processor.py:186} INFO - Started process (PID=2693) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:42:53.875+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-01-04T17:42:53.876+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:42:53.876+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:42:53.891+0100] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2025-01-04T17:42:54.029+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:42:54.029+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-04T17:42:54.048+0100] {logging_mixin.py:190} INFO - [2025-01-04T17:42:54.048+0100] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2025-01-04 12:00:00+00:00, run_after=2025-01-04 16:00:00+00:00
+[2025-01-04T17:42:54.069+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.208 seconds

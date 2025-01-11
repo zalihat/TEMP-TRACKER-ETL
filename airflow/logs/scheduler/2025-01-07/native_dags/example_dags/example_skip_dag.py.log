@@ -1,0 +1,28 @@
+[2025-01-07T10:30:59.749+0100] {processor.py:186} INFO - Started process (PID=84877) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-01-07T10:30:59.756+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-01-07T10:30:59.758+0100] {logging_mixin.py:190} INFO - [2025-01-07T10:30:59.757+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-01-07T10:30:59.789+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-01-07T10:31:00.054+0100] {logging_mixin.py:190} INFO - [2025-01-07T10:31:00.053+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-07T10:31:00.097+0100] {logging_mixin.py:190} INFO - [2025-01-07T10:31:00.097+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-07T10:31:00.135+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.397 seconds
+[2025-01-07T20:39:02.704+0100] {processor.py:186} INFO - Started process (PID=65733) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-01-07T20:39:02.710+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-01-07T20:39:02.711+0100] {logging_mixin.py:190} INFO - [2025-01-07T20:39:02.711+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-01-07T20:39:02.725+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-01-07T20:39:02.867+0100] {logging_mixin.py:190} INFO - [2025-01-07T20:39:02.866+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-07T20:39:02.888+0100] {logging_mixin.py:190} INFO - [2025-01-07T20:39:02.888+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-07T20:39:02.910+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.213 seconds
+[2025-01-07T20:43:21.510+0100] {processor.py:186} INFO - Started process (PID=67095) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-01-07T20:43:21.517+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-01-07T20:43:21.519+0100] {logging_mixin.py:190} INFO - [2025-01-07T20:43:21.519+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-01-07T20:43:21.541+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-01-07T20:43:21.772+0100] {logging_mixin.py:190} INFO - [2025-01-07T20:43:21.772+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-07T20:43:21.805+0100] {logging_mixin.py:190} INFO - [2025-01-07T20:43:21.804+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-07T20:43:21.835+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.339 seconds
+[2025-01-07T21:05:36.350+0100] {processor.py:186} INFO - Started process (PID=74800) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-01-07T21:05:36.356+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-01-07T21:05:36.357+0100] {logging_mixin.py:190} INFO - [2025-01-07T21:05:36.357+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-01-07T21:05:36.370+0100] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-01-07T21:05:36.513+0100] {logging_mixin.py:190} INFO - [2025-01-07T21:05:36.513+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-07T21:05:36.532+0100] {logging_mixin.py:190} INFO - [2025-01-07T21:05:36.531+0100] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-07T21:05:36.552+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.210 seconds
