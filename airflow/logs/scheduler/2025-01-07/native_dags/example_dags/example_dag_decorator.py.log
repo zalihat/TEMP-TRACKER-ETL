@@ -1,0 +1,14 @@
+[2025-01-07T20:40:45.864+0100] {processor.py:186} INFO - Started process (PID=66309) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-07T20:40:45.869+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-07T20:40:45.871+0100] {logging_mixin.py:190} INFO - [2025-01-07T20:40:45.871+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-07T20:40:46.139+0100] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-07T20:40:46.442+0100] {logging_mixin.py:190} INFO - [2025-01-07T20:40:46.441+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-07T20:40:46.452+0100] {logging_mixin.py:190} INFO - [2025-01-07T20:40:46.452+0100] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-07T20:40:46.474+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.618 seconds
+[2025-01-07T21:06:50.678+0100] {processor.py:186} INFO - Started process (PID=75208) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-07T21:06:50.683+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-01-07T21:06:50.684+0100] {logging_mixin.py:190} INFO - [2025-01-07T21:06:50.684+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-07T21:06:50.896+0100] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-01-07T21:06:51.124+0100] {logging_mixin.py:190} INFO - [2025-01-07T21:06:51.124+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-07T21:06:51.133+0100] {logging_mixin.py:190} INFO - [2025-01-07T21:06:51.133+0100] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-01-07T21:06:51.153+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py took 0.483 seconds

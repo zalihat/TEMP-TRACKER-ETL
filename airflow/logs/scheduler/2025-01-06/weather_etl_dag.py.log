@@ -1,0 +1,59 @@
+[2025-01-06T01:50:15.284+0100] {processor.py:186} INFO - Started process (PID=4079) to work on /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+[2025-01-06T01:50:15.290+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py for tasks to queue
+[2025-01-06T01:50:15.292+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:50:15.292+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+[2025-01-06T01:50:15.526+0100] {processor.py:925} INFO - DAG(s) 'Temp_elt' retrieved from /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+[2025-01-06T01:50:15.667+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:50:15.666+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-06T01:50:15.687+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:50:15.687+0100] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt to 2025-01-03 00:00:00+00:00, run_after=2025-01-04 00:00:00+00:00
+[2025-01-06T01:50:15.706+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py took 0.431 seconds
+[2025-01-06T15:49:16.469+0100] {processor.py:186} INFO - Started process (PID=5612) to work on /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+[2025-01-06T15:49:16.475+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py for tasks to queue
+[2025-01-06T15:49:16.476+0100] {logging_mixin.py:190} INFO - [2025-01-06T15:49:16.476+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+[2025-01-06T15:49:16.711+0100] {processor.py:925} INFO - DAG(s) 'Temp_elt' retrieved from /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+[2025-01-06T15:49:16.851+0100] {logging_mixin.py:190} INFO - [2025-01-06T15:49:16.851+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-06T15:49:16.872+0100] {logging_mixin.py:190} INFO - [2025-01-06T15:49:16.872+0100] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt to 2025-01-03 00:00:00+00:00, run_after=2025-01-04 00:00:00+00:00
+[2025-01-06T15:49:16.891+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py took 0.430 seconds
+[2025-01-06T16:15:18.331+0100] {processor.py:186} INFO - Started process (PID=16473) to work on /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+[2025-01-06T16:15:18.336+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py for tasks to queue
+[2025-01-06T16:15:18.338+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:15:18.337+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+[2025-01-06T16:15:18.457+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:15:18.409+0100] {dagbag.py:387} ERROR - Failed to import: /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py", line 8, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-06T16:15:18.464+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+[2025-01-06T16:15:18.623+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:15:18.623+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-01-06T16:15:18.662+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py took 0.339 seconds
+[2025-01-06T16:20:40.065+0100] {processor.py:186} INFO - Started process (PID=18951) to work on /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+[2025-01-06T16:20:40.073+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py for tasks to queue
+[2025-01-06T16:20:40.075+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:20:40.075+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+[2025-01-06T16:20:40.182+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:20:40.128+0100] {dagbag.py:387} ERROR - Failed to import: /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py", line 8, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-06T16:20:40.197+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+[2025-01-06T16:20:40.399+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:20:40.399+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-01-06T16:20:40.432+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py took 0.376 seconds
+[2025-01-06T16:24:50.427+0100] {processor.py:186} INFO - Started process (PID=20329) to work on /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+[2025-01-06T16:24:50.432+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py for tasks to queue
+[2025-01-06T16:24:50.433+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:24:50.433+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+[2025-01-06T16:24:50.490+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:24:50.471+0100] {dagbag.py:387} ERROR - Failed to import: /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py", line 8, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-06T16:24:50.495+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py
+[2025-01-06T16:24:50.706+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:24:50.706+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-01-06T16:24:50.750+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow/dags/weather_etl_dag.py took 0.332 seconds

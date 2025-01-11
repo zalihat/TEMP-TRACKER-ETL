@@ -1,0 +1,21 @@
+[2025-01-06T01:55:21.283+0100] {processor.py:186} INFO - Started process (PID=4796) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-06T01:55:21.289+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2025-01-06T01:55:21.290+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:55:21.290+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-06T01:55:21.329+0100] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-06T01:55:21.475+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:55:21.474+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-06T01:55:21.484+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:55:21.484+0100] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2025-01-06T01:55:21.504+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.229 seconds
+[2025-01-06T16:16:53.468+0100] {processor.py:186} INFO - Started process (PID=17003) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-06T16:16:53.473+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2025-01-06T16:16:53.474+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:16:53.473+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-06T16:16:53.517+0100] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-06T16:16:53.652+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:16:53.652+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-06T16:16:53.662+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:16:53.662+0100] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2025-01-06T16:16:53.682+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.221 seconds
+[2025-01-06T16:22:18.730+0100] {processor.py:186} INFO - Started process (PID=19501) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-06T16:22:18.736+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2025-01-06T16:22:18.737+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:22:18.737+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-06T16:22:18.788+0100] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-01-06T16:22:18.953+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:22:18.952+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-06T16:22:18.964+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:22:18.963+0100] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2025-01-06T16:22:18.989+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.266 seconds

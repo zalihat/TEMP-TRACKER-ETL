@@ -1,0 +1,32 @@
+[2025-01-06T01:53:37.437+0100] {processor.py:186} INFO - Started process (PID=4527) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-06T01:53:37.443+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-06T01:53:37.444+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:53:37.444+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-06T01:53:37.501+0100] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-06T01:53:37.644+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:53:37.644+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-01-06T01:53:37.654+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:53:37.654+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-06T01:53:37.657+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:53:37.656+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-06T01:53:37.675+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.246 seconds
+[2025-01-06T16:16:08.143+0100] {processor.py:186} INFO - Started process (PID=16759) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-06T16:16:08.151+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-06T16:16:08.154+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:16:08.153+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-06T16:16:08.220+0100] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-06T16:16:08.375+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:16:08.375+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-01-06T16:16:08.386+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:16:08.386+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-06T16:16:08.389+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:16:08.388+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-06T16:16:08.421+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.285 seconds
+[2025-01-06T16:21:30.317+0100] {processor.py:186} INFO - Started process (PID=19241) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-06T16:21:30.322+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-06T16:21:30.323+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:21:30.323+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-06T16:21:30.409+0100] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-06T16:21:30.596+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:21:30.596+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-01-06T16:21:30.608+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:21:30.608+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-06T16:21:30.611+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:21:30.611+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-06T16:21:30.631+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.322 seconds
+[2025-01-06T16:25:43.150+0100] {processor.py:186} INFO - Started process (PID=20610) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-06T16:25:43.156+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2025-01-06T16:25:43.157+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:25:43.157+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-06T16:25:43.237+0100] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2025-01-06T16:25:43.412+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:25:43.412+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-01-06T16:25:43.426+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:25:43.426+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2025-01-06T16:25:43.430+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:25:43.429+0100] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2025-01-06T16:25:43.492+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.351 seconds

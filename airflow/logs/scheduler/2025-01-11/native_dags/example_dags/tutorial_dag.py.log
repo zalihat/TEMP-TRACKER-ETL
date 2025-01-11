@@ -1,0 +1,7 @@
+[2025-01-11T11:41:46.527+0100] {processor.py:186} INFO - Started process (PID=13917) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-01-11T11:41:46.535+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-01-11T11:41:46.537+0100] {logging_mixin.py:190} INFO - [2025-01-11T11:41:46.537+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-01-11T11:41:46.614+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-01-11T11:41:46.849+0100] {logging_mixin.py:190} INFO - [2025-01-11T11:41:46.849+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-11T11:41:46.863+0100] {logging_mixin.py:190} INFO - [2025-01-11T11:41:46.863+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-01-11T11:41:46.897+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.383 seconds

@@ -1,0 +1,21 @@
+[2025-01-06T01:49:02.231+0100] {processor.py:186} INFO - Started process (PID=3918) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-01-06T01:49:02.237+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-01-06T01:49:02.238+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:49:02.238+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-01-06T01:49:02.255+0100] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-01-06T01:49:02.394+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:49:02.394+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-06T01:49:02.409+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:49:02.409+0100] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T01:49:02.430+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py took 0.208 seconds
+[2025-01-06T15:49:04.809+0100] {processor.py:186} INFO - Started process (PID=5579) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-01-06T15:49:04.814+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-01-06T15:49:04.815+0100] {logging_mixin.py:190} INFO - [2025-01-06T15:49:04.815+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-01-06T15:49:04.831+0100] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-01-06T15:49:04.982+0100] {logging_mixin.py:190} INFO - [2025-01-06T15:49:04.981+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-06T15:49:04.997+0100] {logging_mixin.py:190} INFO - [2025-01-06T15:49:04.996+0100] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T15:49:05.016+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py took 0.215 seconds
+[2025-01-06T16:24:28.373+0100] {processor.py:186} INFO - Started process (PID=20198) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-01-06T16:24:28.378+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-01-06T16:24:28.379+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:24:28.379+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-01-06T16:24:28.402+0100] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-01-06T16:24:28.568+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:24:28.568+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-06T16:24:28.586+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:24:28.586+0100] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T16:24:28.607+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py took 0.242 seconds

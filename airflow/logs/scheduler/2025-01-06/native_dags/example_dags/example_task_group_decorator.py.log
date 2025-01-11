@@ -1,0 +1,21 @@
+[2025-01-06T01:54:26.295+0100] {processor.py:186} INFO - Started process (PID=4667) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-01-06T01:54:26.300+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-01-06T01:54:26.301+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:54:26.301+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-01-06T01:54:26.363+0100] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-01-06T01:54:26.513+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:54:26.513+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-06T01:54:26.523+0100] {logging_mixin.py:190} INFO - [2025-01-06T01:54:26.523+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2025-01-06T01:54:26.543+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.256 seconds
+[2025-01-06T16:16:33.033+0100] {processor.py:186} INFO - Started process (PID=16887) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-01-06T16:16:33.038+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-01-06T16:16:33.039+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:16:33.039+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-01-06T16:16:33.105+0100] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-01-06T16:16:33.250+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:16:33.249+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-06T16:16:33.260+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:16:33.259+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2025-01-06T16:16:33.281+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.254 seconds
+[2025-01-06T16:21:57.360+0100] {processor.py:186} INFO - Started process (PID=19380) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-01-06T16:21:57.368+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-01-06T16:21:57.370+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:21:57.369+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-01-06T16:21:57.463+0100] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-01-06T16:21:57.654+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:21:57.653+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-06T16:21:57.672+0100] {logging_mixin.py:190} INFO - [2025-01-06T16:21:57.671+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2025-01-06T16:21:57.703+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.351 seconds
