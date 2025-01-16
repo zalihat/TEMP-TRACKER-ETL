@@ -34,6 +34,7 @@ def extract_weather_data():
     else:
         data = response.json() 
         json_df = pd.json_normalize(data)
+        print(json_df.head())
         json_df['date'] = pd.to_datetime(json_df['location.localtime']).dt.date 
         
         raw_output_path = "data/raw"
@@ -47,5 +48,5 @@ def extract_weather_data():
                 os.path.join(partition_path, f"{data['location.localtime'].iloc[0]}.parquet")
             ) 
         print("Raw data saved partitioned by date.")
-extract_weather_data()
+# extract_weather_data()
 

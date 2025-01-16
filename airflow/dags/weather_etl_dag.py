@@ -29,14 +29,14 @@ default_args = {
 dag = DAG('Temp_elt', default_args=default_args, schedule_interval=timedelta(days=1))
 
 # Define the task using PythonOperator
-t1 = PythonOperator(
+extract = PythonOperator(
     task_id='extract_weather_data',
     python_callable=extract_weather_data,  
     dag=dag,
 )
-t2 = PythonOperator(
+transform = PythonOperator(
     task_id='transformm_weather_data',
     python_callable=transform_weather_data,
     dag=dag,
 )
-t1 >> t2 
+extract >> transform
