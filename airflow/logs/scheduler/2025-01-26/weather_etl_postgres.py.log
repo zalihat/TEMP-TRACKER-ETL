@@ -1,0 +1,981 @@
+[2025-01-26T13:15:05.008+0000] {processor.py:186} INFO - Started process (PID=77) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:15:05.010+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T13:15:05.014+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:15:05.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:15:05.029+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:15:05.025+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T13:15:05.030+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:15:05.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.057 seconds
+[2025-01-26T13:15:35.748+0000] {processor.py:186} INFO - Started process (PID=81) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:15:35.750+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T13:15:35.756+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:15:35.755+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:15:35.770+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:15:35.766+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T13:15:35.771+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:15:35.807+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.065 seconds
+[2025-01-26T13:16:06.292+0000] {processor.py:186} INFO - Started process (PID=85) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:16:06.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T13:16:06.298+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:16:06.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:16:06.308+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:16:06.306+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T13:16:06.309+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:16:06.346+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.067 seconds
+[2025-01-26T13:16:37.192+0000] {processor.py:186} INFO - Started process (PID=89) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:16:37.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T13:16:37.197+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:16:37.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:16:37.210+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:16:37.207+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T13:16:37.211+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:16:37.246+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.060 seconds
+[2025-01-26T13:17:07.433+0000] {processor.py:186} INFO - Started process (PID=93) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:17:07.434+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T13:17:07.438+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:17:07.437+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:17:07.448+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:17:07.445+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T13:17:07.449+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:17:07.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.054 seconds
+[2025-01-26T13:17:31.111+0000] {processor.py:186} INFO - Started process (PID=56) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:17:31.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T13:17:31.116+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:17:31.115+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:17:31.128+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:17:31.125+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T13:17:31.129+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:17:31.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.054 seconds
+[2025-01-26T13:18:01.307+0000] {processor.py:186} INFO - Started process (PID=80) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:18:01.309+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T13:18:01.312+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:18:01.311+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:18:01.322+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:18:01.320+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T13:18:01.323+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:18:01.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.053 seconds
+[2025-01-26T13:18:31.992+0000] {processor.py:186} INFO - Started process (PID=84) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:18:31.993+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T13:18:31.996+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:18:31.996+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:18:32.005+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:18:32.003+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T13:18:32.006+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:18:32.031+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.045 seconds
+[2025-01-26T13:19:02.745+0000] {processor.py:186} INFO - Started process (PID=88) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:19:02.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T13:19:02.750+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:19:02.750+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:19:02.762+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:19:02.759+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T13:19:02.763+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:19:02.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.064 seconds
+[2025-01-26T13:19:32.963+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:19:32.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T13:19:32.968+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:19:32.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:19:32.981+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:19:32.978+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T13:19:32.982+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:19:33.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.062 seconds
+[2025-01-26T13:20:03.217+0000] {processor.py:186} INFO - Started process (PID=96) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:20:03.218+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T13:20:03.222+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:20:03.221+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:20:03.235+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:20:03.232+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T13:20:03.236+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:20:03.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.067 seconds
+[2025-01-26T13:35:33.594+0000] {processor.py:186} INFO - Started process (PID=101) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:35:33.599+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T13:35:33.605+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:35:33.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:35:33.621+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:35:33.617+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T13:35:33.623+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:35:33.669+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.085 seconds
+[2025-01-26T13:36:07.651+0000] {processor.py:186} INFO - Started process (PID=105) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:36:07.697+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T13:36:07.824+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:36:07.799+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:36:08.667+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:36:08.542+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T13:36:08.707+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:36:10.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 3.145 seconds
+[2025-01-26T13:51:29.663+0000] {processor.py:186} INFO - Started process (PID=110) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:51:29.665+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T13:51:29.669+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:51:29.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:51:29.683+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:51:29.679+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T13:51:29.684+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:51:29.724+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.071 seconds
+[2025-01-26T13:52:05.584+0000] {processor.py:186} INFO - Started process (PID=115) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:52:05.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T13:52:05.917+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:52:05.885+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:52:06.237+0000] {logging_mixin.py:190} INFO - [2025-01-26T13:52:06.153+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T13:52:06.260+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T13:52:07.675+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 2.684 seconds
+[2025-01-26T14:07:23.704+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:07:23.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T14:07:23.709+0000] {logging_mixin.py:190} INFO - [2025-01-26T14:07:23.708+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:07:23.718+0000] {logging_mixin.py:190} INFO - [2025-01-26T14:07:23.716+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T14:07:23.719+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:07:23.749+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.052 seconds
+[2025-01-26T14:07:55.926+0000] {processor.py:186} INFO - Started process (PID=125) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:07:55.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T14:07:56.167+0000] {logging_mixin.py:190} INFO - [2025-01-26T14:07:56.151+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:07:56.711+0000] {logging_mixin.py:190} INFO - [2025-01-26T14:07:56.567+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T14:07:56.779+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:07:58.822+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 3.287 seconds
+[2025-01-26T14:23:15.461+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:23:15.462+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T14:23:15.465+0000] {logging_mixin.py:190} INFO - [2025-01-26T14:23:15.465+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:23:15.476+0000] {logging_mixin.py:190} INFO - [2025-01-26T14:23:15.474+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T14:23:15.478+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:23:15.508+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.053 seconds
+[2025-01-26T14:23:48.454+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:23:48.590+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T14:23:48.760+0000] {logging_mixin.py:190} INFO - [2025-01-26T14:23:48.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:23:49.260+0000] {logging_mixin.py:190} INFO - [2025-01-26T14:23:49.105+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T14:23:49.306+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:23:50.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 2.807 seconds
+[2025-01-26T14:29:04.761+0000] {processor.py:186} INFO - Started process (PID=144) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:29:04.763+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T14:29:04.766+0000] {logging_mixin.py:190} INFO - [2025-01-26T14:29:04.765+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:29:04.775+0000] {logging_mixin.py:190} INFO - [2025-01-26T14:29:04.773+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T14:29:04.777+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:29:04.805+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.050 seconds
+[2025-01-26T14:44:24.386+0000] {processor.py:186} INFO - Started process (PID=150) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:44:24.388+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T14:44:24.391+0000] {logging_mixin.py:190} INFO - [2025-01-26T14:44:24.390+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:44:24.402+0000] {logging_mixin.py:190} INFO - [2025-01-26T14:44:24.399+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T14:44:24.404+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:44:24.446+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.068 seconds
+[2025-01-26T14:59:51.312+0000] {processor.py:186} INFO - Started process (PID=162) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:59:51.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T14:59:51.320+0000] {logging_mixin.py:190} INFO - [2025-01-26T14:59:51.318+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:59:51.345+0000] {logging_mixin.py:190} INFO - [2025-01-26T14:59:51.341+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T14:59:51.347+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T14:59:51.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.097 seconds
+[2025-01-26T15:00:26.158+0000] {processor.py:186} INFO - Started process (PID=166) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:00:26.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T15:00:26.384+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:00:26.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:00:26.767+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:00:26.662+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T15:00:26.833+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:00:28.526+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 2.725 seconds
+[2025-01-26T15:13:49.969+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:13:49.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T15:13:49.975+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:13:49.974+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:13:49.994+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:13:49.989+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T15:13:49.998+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:13:50.055+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.098 seconds
+[2025-01-26T15:21:16.841+0000] {processor.py:186} INFO - Started process (PID=176) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:21:16.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T15:21:16.846+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:21:16.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:21:16.863+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:21:16.860+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T15:21:16.864+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:21:16.905+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.077 seconds
+[2025-01-26T15:21:54.275+0000] {processor.py:186} INFO - Started process (PID=181) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:21:54.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T15:21:54.391+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:21:54.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:21:54.742+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:21:54.635+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T15:21:54.778+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:21:56.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 3.164 seconds
+[2025-01-26T15:22:27.471+0000] {processor.py:186} INFO - Started process (PID=185) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:22:27.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T15:22:27.482+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:22:27.480+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:22:27.513+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:22:27.507+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T15:22:27.516+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:22:27.590+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.144 seconds
+[2025-01-26T15:37:35.690+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:37:35.692+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T15:37:35.696+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:37:35.695+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:37:35.708+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:37:35.705+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T15:37:35.709+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:37:35.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.069 seconds
+[2025-01-26T15:38:09.262+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:38:09.330+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T15:38:09.490+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:38:09.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:38:09.850+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:38:09.737+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T15:38:09.880+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:38:11.750+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 2.970 seconds
+[2025-01-26T15:53:20.844+0000] {processor.py:186} INFO - Started process (PID=203) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:53:20.846+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T15:53:20.855+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:53:20.850+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:53:20.876+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:53:20.869+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T15:53:20.878+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:53:20.942+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.115 seconds
+[2025-01-26T15:53:55.572+0000] {processor.py:186} INFO - Started process (PID=209) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:53:55.630+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T15:53:55.882+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:53:55.825+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:53:56.770+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:53:56.529+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T15:53:56.811+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:53:58.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 3.266 seconds
+[2025-01-26T15:54:30.084+0000] {processor.py:186} INFO - Started process (PID=213) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:54:30.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T15:54:30.110+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:54:30.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T15:54:30.176+0000] {logging_mixin.py:190} INFO - [2025-01-26T15:54:30.144+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T15:54:30.187+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:09:30.007+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 899.920 seconds
+[2025-01-26T16:10:04.795+0000] {processor.py:186} INFO - Started process (PID=222) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:10:04.846+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:10:05.041+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:10:05.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:10:05.482+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:10:05.339+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:10:05.725+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:10:07.230+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 2.836 seconds
+[2025-01-26T16:10:37.892+0000] {processor.py:186} INFO - Started process (PID=226) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:10:37.895+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:10:37.906+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:10:37.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:10:37.939+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:10:37.932+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:10:37.943+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:10:38.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.185 seconds
+[2025-01-26T16:22:17.788+0000] {processor.py:186} INFO - Started process (PID=230) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:22:17.790+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:22:17.794+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:22:17.794+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:22:17.809+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:22:17.806+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:22:17.811+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:22:17.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.082 seconds
+[2025-01-26T16:22:51.019+0000] {processor.py:186} INFO - Started process (PID=236) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:22:51.075+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:22:51.346+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:22:51.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:22:51.967+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:22:51.757+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:22:52.212+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:22:54.148+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 3.649 seconds
+[2025-01-26T16:23:25.027+0000] {processor.py:186} INFO - Started process (PID=240) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:23:25.031+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:23:25.046+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:23:25.044+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:23:25.093+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:23:25.082+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:23:25.100+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:23:25.249+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.252 seconds
+[2025-01-26T16:23:55.958+0000] {processor.py:186} INFO - Started process (PID=244) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:23:55.960+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:23:55.964+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:23:55.963+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:23:55.976+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:23:55.973+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:23:55.976+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:23:56.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.061 seconds
+[2025-01-26T16:24:26.389+0000] {processor.py:186} INFO - Started process (PID=248) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:24:26.391+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:24:26.394+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:24:26.394+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:24:26.407+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:24:26.404+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:24:26.408+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:24:26.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.062 seconds
+[2025-01-26T16:24:56.800+0000] {processor.py:186} INFO - Started process (PID=252) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:24:56.801+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:24:56.804+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:24:56.804+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:24:56.815+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:24:56.813+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:24:56.816+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:24:56.851+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.058 seconds
+[2025-01-26T16:25:27.226+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:25:27.227+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:25:27.231+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:25:27.230+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:25:27.244+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:25:27.241+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:25:27.245+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:25:27.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.063 seconds
+[2025-01-26T16:25:57.619+0000] {processor.py:186} INFO - Started process (PID=260) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:25:57.620+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:25:57.623+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:25:57.623+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:25:57.635+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:25:57.633+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:25:57.636+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:25:57.671+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.059 seconds
+[2025-01-26T16:27:18.756+0000] {processor.py:186} INFO - Started process (PID=265) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:27:18.759+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:27:18.763+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:27:18.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:27:18.778+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:27:18.774+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:27:18.780+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:27:18.827+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.090 seconds
+[2025-01-26T16:27:53.527+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:27:53.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:27:53.864+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:27:53.798+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:27:54.204+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:27:54.133+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:27:54.249+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:27:55.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 2.560 seconds
+[2025-01-26T16:31:18.817+0000] {processor.py:186} INFO - Started process (PID=278) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:31:18.819+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:31:18.823+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:31:18.823+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:31:18.839+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:31:18.835+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:31:18.840+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:31:18.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.071 seconds
+[2025-01-26T16:31:48.992+0000] {processor.py:186} INFO - Started process (PID=282) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:31:48.993+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:31:48.996+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:31:48.996+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:31:49.009+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:31:49.005+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:31:49.010+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:31:49.044+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.062 seconds
+[2025-01-26T16:32:19.134+0000] {processor.py:186} INFO - Started process (PID=286) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:32:19.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:32:19.139+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:32:19.138+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:32:19.153+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:32:19.150+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:32:19.154+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:32:19.194+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.067 seconds
+[2025-01-26T16:32:49.538+0000] {processor.py:186} INFO - Started process (PID=290) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:32:49.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:32:49.544+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:32:49.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:32:49.559+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:32:49.555+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:32:49.561+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:32:49.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.075 seconds
+[2025-01-26T16:33:20.344+0000] {processor.py:186} INFO - Started process (PID=294) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:33:20.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:33:20.349+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:33:20.348+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:33:20.360+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:33:20.358+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:33:20.361+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:33:20.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.065 seconds
+[2025-01-26T16:33:50.598+0000] {processor.py:186} INFO - Started process (PID=298) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:33:50.599+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:33:50.602+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:33:50.602+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:33:50.614+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:33:50.611+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:33:50.615+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:33:50.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.058 seconds
+[2025-01-26T16:34:20.779+0000] {processor.py:186} INFO - Started process (PID=302) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:34:20.780+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:34:20.784+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:34:20.783+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:34:20.817+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:34:20.814+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:34:20.819+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:34:20.863+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.094 seconds
+[2025-01-26T16:34:50.937+0000] {processor.py:186} INFO - Started process (PID=306) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:34:50.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:34:50.942+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:34:50.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:34:50.953+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:34:50.951+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:34:50.954+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:34:50.987+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.057 seconds
+[2025-01-26T16:35:21.100+0000] {processor.py:186} INFO - Started process (PID=310) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:35:21.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:35:21.105+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:35:21.104+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:35:21.115+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:35:21.113+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:35:21.115+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:35:21.142+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.051 seconds
+[2025-01-26T16:35:51.479+0000] {processor.py:186} INFO - Started process (PID=314) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:35:51.482+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:35:51.486+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:35:51.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:35:51.505+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:35:51.500+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:35:51.506+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:35:51.544+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.071 seconds
+[2025-01-26T16:36:22.187+0000] {processor.py:186} INFO - Started process (PID=318) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:36:22.189+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:36:22.191+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:36:22.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:36:22.205+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:36:22.202+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:36:22.206+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:36:22.243+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.063 seconds
+[2025-01-26T16:36:52.811+0000] {processor.py:186} INFO - Started process (PID=322) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:36:52.813+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:36:52.816+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:36:52.815+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:36:52.827+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:36:52.825+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:36:52.828+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:36:52.860+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.055 seconds
+[2025-01-26T16:37:23.482+0000] {processor.py:186} INFO - Started process (PID=326) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:37:23.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:37:23.488+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:37:23.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:37:23.503+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:37:23.500+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:37:23.504+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:37:23.551+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.080 seconds
+[2025-01-26T16:37:54.081+0000] {processor.py:186} INFO - Started process (PID=330) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:37:54.083+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:37:54.088+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:37:54.087+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:37:54.136+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:37:54.100+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:37:54.146+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:37:54.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.114 seconds
+[2025-01-26T16:38:24.606+0000] {processor.py:186} INFO - Started process (PID=334) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:38:24.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:38:24.611+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:38:24.610+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:38:24.620+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:38:24.618+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:38:24.621+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:38:24.647+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.048 seconds
+[2025-01-26T16:39:26.942+0000] {processor.py:186} INFO - Started process (PID=439) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:39:26.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:39:26.947+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:39:26.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:39:26.960+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:39:26.958+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:39:26.961+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:39:26.993+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.057 seconds
+[2025-01-26T16:40:02.293+0000] {processor.py:186} INFO - Started process (PID=521) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:40:02.295+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:40:02.298+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:40:02.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:40:02.308+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:40:02.306+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/weather_etl_postgres.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_etl_postgres.py", line 12, in <module>
+    from tasks.extract import extract_weather_data
+ModuleNotFoundError: No module named 'tasks'
+[2025-01-26T16:40:02.309+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:40:02.340+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.053 seconds
+[2025-01-26T16:41:58.239+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:41:58.240+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:41:58.243+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:41:58.243+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:41:58.864+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:41:59.017+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:41:59.016+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:Temp_elt_postgres
+[2025-01-26T16:41:59.061+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:41:59.060+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:Temp_elt_postgres
+[2025-01-26T16:41:59.089+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:41:59.089+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:Temp_elt_postgres
+[2025-01-26T16:41:59.134+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:41:59.134+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:Temp_elt_postgres
+[2025-01-26T16:41:59.159+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:41:59.158+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:Temp_elt_postgres
+[2025-01-26T16:41:59.188+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:41:59.187+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:Temp_elt_postgres
+[2025-01-26T16:41:59.221+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:41:59.218+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:Temp_elt_postgres
+[2025-01-26T16:41:59.222+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:41:59.221+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-26T16:41:59.241+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:41:59.241+0000] {dag.py:3262} INFO - Creating ORM DAG for Temp_elt_postgres
+[2025-01-26T16:41:59.255+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:41:59.254+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-01-22 00:00:00+00:00, run_after=2025-01-23 00:00:00+00:00
+[2025-01-26T16:41:59.308+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 1.075 seconds
+[2025-01-26T16:42:29.713+0000] {processor.py:186} INFO - Started process (PID=149) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:42:29.714+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:42:29.718+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:42:29.717+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:42:30.323+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:42:30.347+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:42:30.346+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-26T16:42:30.368+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:42:30.368+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-01-22 00:00:00+00:00, run_after=2025-01-23 00:00:00+00:00
+[2025-01-26T16:42:30.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.709 seconds
+[2025-01-26T16:43:00.600+0000] {processor.py:186} INFO - Started process (PID=155) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:43:00.602+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:43:00.607+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:43:00.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:43:01.365+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:43:01.397+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:43:01.396+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-26T16:43:01.434+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:43:01.433+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-01-22 00:00:00+00:00, run_after=2025-01-23 00:00:00+00:00
+[2025-01-26T16:43:01.491+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.899 seconds
+[2025-01-26T16:43:31.873+0000] {processor.py:186} INFO - Started process (PID=161) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:43:31.875+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:43:31.880+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:43:31.879+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:43:32.785+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:43:32.821+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:43:32.821+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-26T16:43:32.855+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:43:32.855+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-01-22 00:00:00+00:00, run_after=2025-01-23 00:00:00+00:00
+[2025-01-26T16:43:32.916+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 1.052 seconds
+[2025-01-26T16:44:48.891+0000] {processor.py:186} INFO - Started process (PID=288) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:44:48.892+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:44:48.895+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:44:48.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:44:49.444+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:44:49.466+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:44:49.465+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-26T16:44:49.488+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:44:49.488+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-01-26 00:00:00+00:00, run_after=2025-01-27 00:00:00+00:00
+[2025-01-26T16:44:49.527+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.642 seconds
+[2025-01-26T16:45:20.120+0000] {processor.py:186} INFO - Started process (PID=318) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:45:20.121+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:45:20.124+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:45:20.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:45:20.752+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:45:20.779+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:45:20.778+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-26T16:45:20.802+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:45:20.802+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-01-26 00:00:00+00:00, run_after=2025-01-27 00:00:00+00:00
+[2025-01-26T16:45:20.848+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.734 seconds
+[2025-01-26T16:45:51.171+0000] {processor.py:186} INFO - Started process (PID=348) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:45:51.172+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:45:51.176+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:45:51.175+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:45:51.677+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:45:51.699+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:45:51.698+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-26T16:45:51.720+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:45:51.719+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-01-26 00:00:00+00:00, run_after=2025-01-27 00:00:00+00:00
+[2025-01-26T16:45:51.754+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.591 seconds
+[2025-01-26T16:46:22.280+0000] {processor.py:186} INFO - Started process (PID=354) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:46:22.281+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:46:22.284+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:46:22.284+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:46:22.849+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:46:22.880+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:46:22.880+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-26T16:46:22.905+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:46:22.904+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-01-26 00:00:00+00:00, run_after=2025-01-27 00:00:00+00:00
+[2025-01-26T16:46:22.946+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.672 seconds
+[2025-01-26T16:46:53.155+0000] {processor.py:186} INFO - Started process (PID=360) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:46:53.156+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:46:53.159+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:46:53.159+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:46:53.656+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:46:53.681+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:46:53.681+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-26T16:46:53.702+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:46:53.702+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-01-26 00:00:00+00:00, run_after=2025-01-27 00:00:00+00:00
+[2025-01-26T16:46:53.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.599 seconds
+[2025-01-26T16:47:24.886+0000] {processor.py:186} INFO - Started process (PID=390) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:47:24.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:47:24.891+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:47:24.891+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:47:25.443+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:47:25.466+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:47:25.465+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-26T16:47:25.485+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:47:25.485+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-01-26 00:00:00+00:00, run_after=2025-01-27 00:00:00+00:00
+[2025-01-26T16:47:25.533+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.653 seconds
+[2025-01-26T16:47:56.508+0000] {processor.py:186} INFO - Started process (PID=396) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:47:56.510+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:47:56.512+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:47:56.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:47:57.016+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:47:57.039+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:47:57.039+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-26T16:47:57.064+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:47:57.063+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-01-26 00:00:00+00:00, run_after=2025-01-27 00:00:00+00:00
+[2025-01-26T16:47:57.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.607 seconds
+[2025-01-26T16:48:27.406+0000] {processor.py:186} INFO - Started process (PID=402) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:48:27.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:48:27.412+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:48:27.411+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:48:27.922+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:48:27.944+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:48:27.943+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-26T16:48:27.962+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:48:27.962+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-01-26 00:00:00+00:00, run_after=2025-01-27 00:00:00+00:00
+[2025-01-26T16:48:27.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.599 seconds
+[2025-01-26T16:48:58.242+0000] {processor.py:186} INFO - Started process (PID=408) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:48:58.244+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:48:58.247+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:48:58.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:48:58.755+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:48:58.776+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:48:58.776+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-26T16:48:58.796+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:48:58.796+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-01-26 00:00:00+00:00, run_after=2025-01-27 00:00:00+00:00
+[2025-01-26T16:48:58.830+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.594 seconds
+[2025-01-26T16:50:17.794+0000] {processor.py:186} INFO - Started process (PID=625) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:50:17.795+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:50:17.798+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:50:17.798+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:50:18.325+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:50:18.350+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:50:18.350+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-26T16:50:18.372+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:50:18.372+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-01-26 00:00:00+00:00, run_after=2025-01-27 00:00:00+00:00
+[2025-01-26T16:50:18.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.627 seconds
+[2025-01-26T16:51:18.751+0000] {processor.py:186} INFO - Started process (PID=794) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:51:18.752+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:51:18.755+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:51:18.755+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:51:19.261+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:51:19.284+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:51:19.284+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-26T16:51:19.311+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:51:19.310+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-01-26 00:00:00+00:00, run_after=2025-01-27 00:00:00+00:00
+[2025-01-26T16:51:19.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.606 seconds
+[2025-01-26T16:51:50.415+0000] {processor.py:186} INFO - Started process (PID=800) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:51:50.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:51:50.422+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:51:50.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:51:50.922+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:51:50.947+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:51:50.946+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-26T16:51:50.967+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:51:50.967+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-01-26 00:00:00+00:00, run_after=2025-01-27 00:00:00+00:00
+[2025-01-26T16:51:51.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.598 seconds
+[2025-01-26T16:52:21.521+0000] {processor.py:186} INFO - Started process (PID=806) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:52:21.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-01-26T16:52:21.525+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:52:21.524+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:52:21.992+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-01-26T16:52:22.014+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:52:22.014+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-26T16:52:22.035+0000] {logging_mixin.py:190} INFO - [2025-01-26T16:52:22.034+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-01-26 00:00:00+00:00, run_after=2025-01-27 00:00:00+00:00
+[2025-01-26T16:52:22.069+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.556 seconds
