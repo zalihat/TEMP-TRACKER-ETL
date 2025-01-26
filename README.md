@@ -3,6 +3,8 @@
 1. No pyspark for now.
 2. Get apache airflow to run the pipeline
 3. writting to a database(postgres db)
+4. Get pyspark to work
+
 
 next steps
 

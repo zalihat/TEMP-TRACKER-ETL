@@ -28,10 +28,6 @@ def extract_weather_data():
         response = requests.get(url, headers=headers, params=querystring)
         data = response.json() 
         print(data)
-       
-    except Exception as e: 
-        print("undexpected error: {e}")
-    else:
         data = response.json() 
         json_df = pd.json_normalize(data)
         print(json_df.head())
@@ -48,5 +44,9 @@ def extract_weather_data():
                 os.path.join(partition_path, f"{data['location.localtime'].iloc[0]}.parquet")
             ) 
         print("Raw data saved partitioned by date.")
-# extract_weather_data()
+       
+    except Exception as e: 
+        print("undexpected error: {e}")
+
+      
 

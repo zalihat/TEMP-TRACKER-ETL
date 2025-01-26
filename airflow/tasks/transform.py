@@ -37,6 +37,7 @@ def transform_weather_data():
                         processed_df['feelslike_c'] = df['current.feelslike_c']
                         processed_df['feelslike_f'] = df['current.feelslike_f']
                         processed_df['date'] = df['date']
+
                         # processed_output_path = 
                         for unique_date in processed_df['date'].unique():
                             partition_path = os.path.join(processed_output_path, f"{unique_date}")
@@ -51,9 +52,13 @@ def transform_weather_data():
                         # Append the processed file to the log
                         with open(log_file, "a") as f:
                             f.write(file_name + "\n")
+                        print(processed_df.head())   
+                        return processed_df  
                     except Exception as e:
                         print(f"Error processing {file_name}: {e}")
                 else:
                     print(f"Skipping already processed file: {file_name}")
+   
 
-transform_weather_data()
+# transform_weather_data()
+
