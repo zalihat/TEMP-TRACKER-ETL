@@ -11,3 +11,5 @@ next steps
 1. use pyspark
 2. change api and transformation will be to create a fact and dimention tables.
 3. writting to a database(postgres db) using spark. 
+
+

@@ -1,77 +1,20 @@
-# version: '3'
-
-# services:
-#   sleek-airflow:
-#     build:
-#       context: ./airflow
-#       dockerfile: Dockerfile
-#     image: temptracketl:latest
-#     volumes:
-#       - ./airflow:/opt/airflow
-#       - ./shared:/opt/shared
-#     ports:
-#       - "8080:8080"
-#     command: airflow standalone
-#     depends_on:
-#       - postgres
-#       - spark
-#     environment:
-#       - SPARK_MASTER=spark://spark:7077
-#       - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-
-#   postgres:
-#     image: postgres:13
-#     environment:
-#       POSTGRES_USER: airflow
-#       POSTGRES_PASSWORD: airflow
-#       POSTGRES_DB: airflow
-#     ports:
-#       - 5432:5432
-#     volumes:
-#       - postgres_data:/var/lib/postgresql/data
-#     healthcheck:
-#       test: ["CMD", "pg_isready", "-U", "airflow"]
-#       retries: 5
-#     restart: always
-#   spark:
-#     image: custom-spark:latest
-#     environment:
-#       - SPARK_MODE=master
-#       - SPARK_MASTER_HOST=spark
-#       - SPARK_WORKER_MEMORY=2G
-#     ports:
-#      - "7077:7077"
-#      - "8081:8081"
-#     volumes:
-#       - spark_data:/opt/spark
-#     networks:
-#       - default
-#   spark-worker:
-#     image: custom-spark:latest
-#     environment:
-#       - SPARK_MODE=worker
-#       - SPARK_MASTER_URL=spark://spark:7077
-#       - SPARK_WORKER_MEMORY=2G
-#     depends_on:
-#       - spark
-#     networks:
-#       - default
-
-# volumes:
-#   postgres_data:
-#   spark_data:
-
-
-version: '3'
-
 services:
-  airflow:
-    image: temptracker:latest
+  sleek-airflow:
+    image: temptracketl:latest
     volumes:
       - ./airflow:/opt/airflow
     ports:
-      - "8025:8080"
+      - "8080:8080"
     command: airflow standalone
+    depends_on:
+      - postgres
+      - spark-master
+    environment:
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      - AIRFLOW__CORE__EXECUTOR=CeleryExecutor
+      - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
+      - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://airflow:airflow@postgres:5432/airflow
+
   postgres:
     image: postgres:13
     environment:
@@ -79,13 +22,40 @@ services:
       POSTGRES_PASSWORD: airflow
       POSTGRES_DB: airflow
     ports:
-      - 5432:5432
+      - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "airflow"]
       retries: 5
     restart: always
+
+  spark-master:
+    build:
+      context: .
+      dockerfile: Dockerfile.spark
+    container_name: spark-master
+    environment:
+      - SPARK_MODE=master
+    ports:
+      - "8081:8081"
+      - "7077:7077"
+
+  spark-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.spark
+    container_name: spark-worker
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark-master:7077
+    depends_on:
+      - spark-master
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
 
 volumes:
   postgres_data:

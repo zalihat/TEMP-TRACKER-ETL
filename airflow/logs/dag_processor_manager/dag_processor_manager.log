@@ -980,3 +980,391 @@ File Path                                        PID    Runtime      # DAGs    #
 /opt/airflow/dags/sample.py                                               1           0  0.21s           2025-01-26T16:51:46                      10
 /opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.21s           2025-01-26T16:51:48                      12
 ================================================================================
+[2025-01-31T16:05:48.824+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-01-31T16:05:48.825+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-01-31T16:05:48.826+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-01-31T16:05:48.827+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T16:05:48.857+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T16:05:49.143+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py               198  0.04s             0           0                                                   0
+/opt/airflow/dags/dag_with_postgres_operator.py                           0           0                                                   0
+/opt/airflow/dags/sample.py                                               0           0                                                   0
+/opt/airflow/dags/weather_etl_postgres.py          195  0.05s             0           0                                                   0
+================================================================================
+[2025-01-31T16:06:19.768+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  1.88s           2025-01-31T16:05:50                      45
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  1.88s           2025-01-31T16:05:50                      45
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.47s           2025-01-31T16:05:51                      45
+/opt/airflow/dags/sample.py                                               1           0  0.42s           2025-01-31T16:05:51                      43
+================================================================================
+[2025-01-31T16:06:50.006+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.77s           2025-01-31T16:06:22                      12
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.75s           2025-01-31T16:06:22                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2025-01-31T16:06:22                      12
+/opt/airflow/dags/sample.py                                               1           0  0.12s           2025-01-31T16:06:22                      10
+================================================================================
+[2025-01-31T16:07:20.073+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.62s           2025-01-31T16:06:53                      12
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.60s           2025-01-31T16:06:53                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2025-01-31T16:06:53                      12
+/opt/airflow/dags/sample.py                                               1           0  0.11s           2025-01-31T16:06:53                      10
+================================================================================
+[2025-01-31T16:07:50.200+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.64s           2025-01-31T16:07:24                      12
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.63s           2025-01-31T16:07:24                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2025-01-31T16:07:25                      12
+/opt/airflow/dags/sample.py                                               1           0  0.12s           2025-01-31T16:07:24                      10
+================================================================================
+[2025-01-31T16:08:20.280+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.62s           2025-01-31T16:07:55                      12
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.61s           2025-01-31T16:07:55                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2025-01-31T16:07:56                      12
+/opt/airflow/dags/sample.py                                               1           0  0.13s           2025-01-31T16:07:56                      10
+================================================================================
+[2025-01-31T16:08:50.579+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.78s           2025-01-31T16:08:27                      12
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.78s           2025-01-31T16:08:27                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2025-01-31T16:08:27                      12
+/opt/airflow/dags/sample.py                                               1           0  0.13s           2025-01-31T16:08:27                      10
+================================================================================
+[2025-01-31T16:09:20.717+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.61s           2025-01-31T16:08:58                      12
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.61s           2025-01-31T16:08:58                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2025-01-31T16:08:58                      12
+/opt/airflow/dags/sample.py                                               1           0  0.11s           2025-01-31T16:08:58                      10
+================================================================================
+[2025-01-31T16:09:50.932+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.73s           2025-01-31T16:09:29                      12
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.73s           2025-01-31T16:09:29                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2025-01-31T16:09:29                      12
+/opt/airflow/dags/sample.py                                               1           0  0.13s           2025-01-31T16:09:29                      10
+================================================================================
+[2025-01-31T19:05:18.968+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-01-31T19:05:18.969+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-01-31T19:05:18.969+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-01-31T19:05:18.970+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T19:05:18.991+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T19:05:19.168+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py               199  0.02s             0           0                                                   0
+/opt/airflow/dags/dag_with_postgres_operator.py                           0           0                                                   0
+/opt/airflow/dags/sample.py                                               0           0                                                   0
+/opt/airflow/dags/weather_etl_postgres.py          196  0.03s             0           0                                                   0
+================================================================================
+[2025-01-31T19:05:49.230+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.68s           2025-01-31T19:05:19                      12
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.68s           2025-01-31T19:05:19                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2025-01-31T19:05:20                      12
+/opt/airflow/dags/sample.py                                               1           0  0.13s           2025-01-31T19:05:19                      10
+================================================================================
+[2025-01-31T19:06:19.772+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  1.05s           2025-01-31T19:05:51                      12
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  1.02s           2025-01-31T19:05:51                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.19s           2025-01-31T19:05:51                      12
+/opt/airflow/dags/sample.py                                               1           0  0.16s           2025-01-31T19:05:51                      10
+================================================================================
+[2025-01-31T19:06:50.367+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  1.14s           2025-01-31T19:06:22                      12
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  1.12s           2025-01-31T19:06:22                      12
+/opt/airflow/dags/sample.py                                               1           0  0.14s           2025-01-31T19:06:23                      10
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2025-01-31T19:06:23                      12
+================================================================================
+[2025-01-31T19:07:20.570+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.76s           2025-01-31T19:06:54                      12
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.74s           2025-01-31T19:06:54                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2025-01-31T19:06:54                      12
+/opt/airflow/dags/sample.py                                               1           0  0.14s           2025-01-31T19:06:54                      10
+================================================================================
+[2025-01-31T19:07:50.785+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.71s           2025-01-31T19:07:25                      12
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.70s           2025-01-31T19:07:25                      12
+/opt/airflow/dags/sample.py                                               1           0  0.15s           2025-01-31T19:07:25                      10
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.15s           2025-01-31T19:07:25                      12
+================================================================================
+[2025-01-31T19:08:20.961+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.67s           2025-01-31T19:07:56                      12
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.67s           2025-01-31T19:07:56                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.18s           2025-01-31T19:07:56                      12
+/opt/airflow/dags/sample.py                                               1           0  0.16s           2025-01-31T19:07:56                      10
+================================================================================
+[2025-01-31T19:08:51.079+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.64s           2025-01-31T19:08:27                      12
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.64s           2025-01-31T19:08:27                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2025-01-31T19:08:27                      12
+/opt/airflow/dags/sample.py                                               1           0  0.11s           2025-01-31T19:08:27                      10
+================================================================================
+[2025-01-31T19:09:21.426+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.82s           2025-01-31T19:08:58                      12
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.81s           2025-01-31T19:08:58                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.20s           2025-01-31T19:08:59                      12
+/opt/airflow/dags/sample.py                                               1           0  0.18s           2025-01-31T19:08:59                      10
+================================================================================
+[2025-01-31T19:09:51.558+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.66s           2025-01-31T19:09:30                      12
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.63s           2025-01-31T19:09:30                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2025-01-31T19:09:30                      12
+/opt/airflow/dags/sample.py                                               1           0  0.11s           2025-01-31T19:09:30                      10
+================================================================================
+[2025-01-31T19:10:19.701+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T19:10:19.732+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T19:10:21.770+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.69s           2025-01-31T19:10:01                      12
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.69s           2025-01-31T19:10:01                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2025-01-31T19:10:01                      12
+/opt/airflow/dags/sample.py                                               1           0  0.12s           2025-01-31T19:10:01                      10
+================================================================================
+[2025-01-31T19:10:51.920+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.68s           2025-01-31T19:10:32                      12
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.68s           2025-01-31T19:10:32                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2025-01-31T19:10:32                      12
+/opt/airflow/dags/sample.py                                               1           0  0.12s           2025-01-31T19:10:32                      10
+================================================================================
+[2025-01-31T19:11:22.048+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.60s           2025-01-31T19:11:03                      12
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.60s           2025-01-31T19:11:03                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.13s           2025-01-31T19:11:03                      12
+/opt/airflow/dags/sample.py                                               1           0  0.12s           2025-01-31T19:11:03                      10
+================================================================================
+[2025-01-31T19:11:52.243+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.69s           2025-01-31T19:11:34                      12
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.68s           2025-01-31T19:11:34                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2025-01-31T19:11:35                      12
+/opt/airflow/dags/sample.py                                               1           0  0.13s           2025-01-31T19:11:35                      10
+================================================================================
+[2025-01-31T19:12:22.421+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.70s           2025-01-31T19:12:06                      12
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.68s           2025-01-31T19:12:06                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2025-01-31T19:12:06                      12
+/opt/airflow/dags/sample.py                                               1           0  0.12s           2025-01-31T19:12:06                      10
+================================================================================
+[2025-01-31T19:12:52.518+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.65s           2025-01-31T19:12:37                      12
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.65s           2025-01-31T19:12:37                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2025-01-31T19:12:37                      12
+/opt/airflow/dags/sample.py                                               1           0  0.11s           2025-01-31T19:12:37                      10
+================================================================================
+[2025-01-31T19:13:38.673+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-01-31T19:13:38.675+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-01-31T19:13:38.676+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-01-31T19:13:38.678+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T19:13:38.734+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T19:13:39.071+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      0           0                                                   0
+/opt/airflow/dags/spark_dag.py                     195  0.28s             0           0                                                   0
+/opt/airflow/dags/dag_with_postgres_operator.py                           0           0                                                   0
+/opt/airflow/dags/sample.py                                               0           0                                                   0
+/opt/airflow/dags/weather_etl_postgres.py          198  0.03s             0           0                                                   0
+================================================================================
+[2025-01-31T19:14:09.755+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  1.14s           2025-01-31T19:13:40                      12
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  1.09s           2025-01-31T19:13:40                      12
+/opt/airflow/dags/spark_dag.py                     242  0.00s             1           0  0.56s           2025-01-31T19:13:39                      45
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.21s           2025-01-31T19:13:40                      12
+/opt/airflow/dags/sample.py                                               1           0  0.16s           2025-01-31T19:13:40                      10
+================================================================================
+[2025-01-31T19:14:40.262+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.94s           2025-01-31T19:14:11                      12
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.94s           2025-01-31T19:14:11                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.20s           2025-01-31T19:14:12                      12
+/opt/airflow/dags/sample.py                                               1           0  0.16s           2025-01-31T19:14:11                      10
+/opt/airflow/dags/spark_dag.py                     287  0.00s             1           0  0.15s           2025-01-31T19:14:09                      12
+================================================================================
+[2025-01-31T19:15:10.462+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.69s           2025-01-31T19:14:43                      12
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.69s           2025-01-31T19:14:42                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.14s           2025-01-31T19:14:43                      12
+/opt/airflow/dags/spark_dag.py                     314  0.01s             1           0  0.14s           2025-01-31T19:14:40                      12
+/opt/airflow/dags/sample.py                                               1           0  0.14s           2025-01-31T19:14:43                      10
+================================================================================
+[2025-01-31T19:15:40.842+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.73s           2025-01-31T19:15:14                      12
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.73s           2025-01-31T19:15:14                      12
+/opt/airflow/dags/sample.py                                               1           0  0.19s           2025-01-31T19:15:14                      10
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.15s           2025-01-31T19:15:14                      12
+/opt/airflow/dags/spark_dag.py                     341  0.00s             1           0  0.14s           2025-01-31T19:15:10                      12
+================================================================================
+[2025-01-31T19:16:11.084+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.63s           2025-01-31T19:15:45                      12
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.62s           2025-01-31T19:15:45                      12
+/opt/airflow/dags/spark_dag.py                     368  0.00s             1           0  0.16s           2025-01-31T19:15:40                      12
+/opt/airflow/dags/sample.py                                               1           0  0.14s           2025-01-31T19:15:45                      10
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2025-01-31T19:15:45                      12
+================================================================================
+[2025-01-31T19:16:41.211+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.66s           2025-01-31T19:16:16                      12
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.63s           2025-01-31T19:16:16                      12
+/opt/airflow/dags/sample.py                                               1           0  0.16s           2025-01-31T19:16:16                      10
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.15s           2025-01-31T19:16:17                      12
+/opt/airflow/dags/spark_dag.py                                            1           0  0.14s           2025-01-31T19:16:11                      12
+================================================================================
+[2025-01-31T19:17:11.482+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/weather_etl_postgres.py                                 1           0  0.64s           2025-01-31T19:16:48                      12
+/opt/airflow/dags/weather_etl_dag.py                                      1           0  0.62s           2025-01-31T19:16:48                      12
+/opt/airflow/dags/spark_dag.py                                            1           0  0.13s           2025-01-31T19:16:41                      12
+/opt/airflow/dags/dag_with_postgres_operator.py                           1           0  0.12s           2025-01-31T19:16:48                      12
+/opt/airflow/dags/sample.py                                               1           0  0.11s           2025-01-31T19:16:48                      10
+================================================================================
