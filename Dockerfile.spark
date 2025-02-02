@@ -1,25 +1,59 @@
-# Base image with OpenJDK 11
-FROM openjdk:11
+# # Base image with OpenJDK 11
+# FROM openjdk:11
 
-# Set environment variables
-ENV SPARK_VERSION=3.5.4
-ENV HADOOP_VERSION=3
-ENV SPARK_HOME=/opt/spark
-ENV PATH="$SPARK_HOME/bin:$PATH"
+# # Set environment variables
+# ENV SPARK_VERSION=3.5.4
+# ENV HADOOP_VERSION=3
+# ENV SPARK_HOME=/opt/spark
+# ENV JAVA_HOME=/usr/local/openjdk-11
+# ENV PATH="$SPARK_HOME/bin:$JAVA_HOME/bin:$PATH"
 
-# Install dependencies
-RUN apt-get update && apt-get install -y curl tar bash procps && \
-    rm -rf /var/lib/apt/lists/*
+# # Install dependencies
+# RUN apt-get update && apt-get install -y \
+#     curl tar bash procps && \
+#     rm -rf /var/lib/apt/lists/*
+
+# # Download and install Apache Spark
+# RUN curl -fsSL https://downloads.apache.org/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-hadoop${HADOOP_VERSION}.tgz | tar -xz -C /opt && \
+#     mv /opt/spark-${SPARK_VERSION}-bin-hadoop${HADOOP_VERSION} /opt/spark
+
+# # Set work directory
+# WORKDIR /opt/spark
+
+# # Expose ports (Master UI, Worker UI, Web UI, Cluster Communication)
+# EXPOSE 8081 7077 4040
+
+# # Health check to ensure Spark is running
+# HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --retries=3 \
+#     CMD curl -f http://localhost:8081 || exit 1
+
+# # Default command: Start Spark Master
+# CMD ["bin/spark-class", "org.apache.spark.deploy.master.Master"]
+
+# Use a base image with Python
+FROM python:3.9-slim
+
+# Install Java (Spark requires Java)
+# RUN apt-get update && apt-get install -y openjdk-11-jre wget tar
+RUN apt-get update && apt-get install -y openjdk-17-jre wget tar
+
 
 # Download and install Apache Spark
-RUN curl -fsSL https://downloads.apache.org/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-hadoop${HADOOP_VERSION}.tgz | tar -xz -C /opt && \
-    mv /opt/spark-${SPARK_VERSION}-bin-hadoop${HADOOP_VERSION} /opt/spark
+ENV SPARK_VERSION=3.5.4
+RUN wget https://archive.apache.org/dist/spark/spark-$SPARK_VERSION/spark-$SPARK_VERSION-bin-hadoop3.tgz \
+    && tar -xzf spark-$SPARK_VERSION-bin-hadoop3.tgz -C /opt \
+    && ln -s /opt/spark-$SPARK_VERSION-bin-hadoop3 /opt/spark \
+    && rm spark-$SPARK_VERSION-bin-hadoop3.tgz
 
-# Set work directory
-WORKDIR /opt/spark
+# Set Spark environment variables
+ENV SPARK_HOME=/opt/spark
+ENV PATH=$SPARK_HOME/bin:$PATH
 
-# Expose ports (Master UI, Worker UI, Cluster Communication)
-EXPOSE 8081 7077
+# Install PySpark
+RUN pip install pyspark
 
-# Default command
-CMD ["bin/spark-class", "org.apache.spark.deploy.master.Master"]
+# Copy your Spark application Python script
+COPY app.py /opt/spark/app.py
+
+# Set the default command to run the Spark application
+CMD ["spark-submit", "/opt/spark/app.py"]

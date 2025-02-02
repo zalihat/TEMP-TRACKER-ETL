@@ -22,17 +22,31 @@ dag = DAG(
 )
 
 # PySpark job submission
-spark_job = SparkSubmitOperator(
-    task_id="run_pyspark_job",
-    application="/opt/airflow/dags/scripts/pyspark_job.py",  # Path to PySpark script
-    conn_id="spark_default",  # Airflow connection to Spark
+# spark_job = SparkSubmitOperator(
+#     task_id="run_pyspark_job",
+#     application="/opt/airflow/dags/scripts/pyspark_job.py",  # Path to PySpark script
+#     conn_id="spark_default",  # Airflow connection to Spark
+#     executor_cores=1,
+#     executor_memory="1g",
+#     driver_memory="1g",
+#     name="pyspark_airflow_job",
+#     verbose=True,
+#     dag=dag,
+# )
+
+spark_submit_task = SparkSubmitOperator(
+    task_id='run_spark_job',
+    application='/opt/***/dags/scripts/pyspark_job.py',
+    conn_id='spark_default',
+    executor_memory='1g',
+    driver_memory='1g',
     executor_cores=1,
-    executor_memory="1g",
-    driver_memory="1g",
-    name="pyspark_airflow_job",
+    name='pyspark_job',
+    queue='root.default',
+    deploy_mode='client',
     verbose=True,
-    dag=dag,
+    env={'JAVA_HOME': '/usr/local/openjdk-11'}
 )
 
 # Task execution
-spark_job
+spark_submit_task
