@@ -1,20 +1,41 @@
+version: "3"
+
 services:
-  sleek-airflow:
-    image: temptracketl:latest
+  spark-master:
+    build: 
+      context: .
+      dockerfile: Dockerfile.spark
+    container_name: spark-master
+    hostname: spark-master
+    command: ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.master.Master", "--host", "0.0.0.0"]
+    ports:
+      - "7077:7077"  # Spark master port
+      - "8080:8080"  # Spark UI
+
+  spark-worker-1:
+    build: 
+      context: .
+      dockerfile: Dockerfile.spark
+    container_name: spark-worker-1
+    depends_on:
+      - spark-master
+    command: ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.worker.Worker", "spark://spark-master:7077"]
+
+  spark-worker-2:
+    build: 
+      context: .
+      dockerfile: Dockerfile.spark
+    container_name: spark-worker-2
+    depends_on:
+      - spark-master
+    command: ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.worker.Worker", "spark://spark-master:7077"]
+  airflow:
+    image: airflow:latest
     volumes:
       - ./airflow:/opt/airflow
     ports:
-      - "8080:8080"
+      - "8090:8080"
     command: airflow standalone
-    depends_on:
-      - postgres
-      # - spark
-    # environment:
-    #   - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-    #   - AIRFLOW__CORE__EXECUTOR=CeleryExecutor
-    #   - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
-    #   - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://airflow:airflow@postgres:5432/airflow
-
   postgres:
     image: postgres:13
     environment:
@@ -22,47 +43,46 @@ services:
       POSTGRES_PASSWORD: airflow
       POSTGRES_DB: airflow
     ports:
-      - "5432:5432"
+      - 5432:5432
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "airflow"]
       retries: 5
     restart: always
-
-  spark:
-    build:
+  spark-job:
+    build: 
       context: .
       dockerfile: Dockerfile.spark
-    container_name: spark
-    environment:
-      - SPARK_MODE=master
-      - JAVA_HOME=/usr/local/openjdk-11
-      - SPARK_HOME=/opt/spark
-      - SPARK_RPC_MESSAGE_MAXSIZE=512
-      - SPARK_DRIVER_MAXRESULTSIZE=2g
-      - SPARK_NETWORK_TIMEOUT=800
-      - SPARK_NETWORK_MAXREMOTEBLOCKSIZEFETCHTOMEM=512m
-    ports:
-      - "8081:8081"
-      - "7077:7077"
-
-  spark-worker:
-    build:
-      context: .
-      dockerfile: Dockerfile.spark
-    container_name: spark-worker
-    environment:
-      - SPARK_MODE=worker
-      - SPARK_MASTER_URL=spark://spark-master:7077
-      - JAVA_HOME=/usr/local/openjdk-11
+    container_name: spark-job
     depends_on:
-      - spark
-
-  redis:
-    image: redis:latest
-    ports:
-      - "6379:6379"
-
+      - spark-master
+    command: ["/opt/spark/bin/spark-submit", "--master", "spark://spark-master:7077", "/opt/spark/app.py"]
 volumes:
   postgres_data:
+  # airflow:
+  #   image: apache/airflow:2.7.0
+  #   container_name: airflow
+  #   hostname: airflow
+  #   restart: always
+  #   depends_on:
+  #     - spark-master
+  #   environment:
+  #     - AIRFLOW__CORE__LOAD_EXAMPLES=False
+  #     - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
+  #     - AIRFLOW__WEBSERVER__DEFAULT_UI_TIMEZONE=UTC
+  #     - AIRFLOW__CORE__FERNET_KEY=<your_fernet_key>  # Generate if needed
+  #     - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/airflow.db
+  #   volumes:
+  #     - ./dags:/opt/airflow/dags
+  #     - ./logs:/opt/airflow/logs
+  #     - ./plugins:/opt/airflow/plugins
+  #   ports:
+  #     - "8089:8080"  # Airflow UI
+  #   command: >
+  #     bash -c "
+  #     airflow db init &&
+  #     airflow users create --username airflow --password airflow --firstname Air --lastname Flow --role Admin --email airflow@example.com &&
+  #     airflow webserver & airflow scheduler"
+
+ 
