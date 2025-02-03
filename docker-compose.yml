@@ -6,17 +6,24 @@ services:
       context: .
       dockerfile: Dockerfile.spark
     container_name: spark-master
+    environment:
+      - PYSPARK_PYTHON=python3.12
+      - PYSPARK_DRIVER_PYTHON=python3.12
     hostname: spark-master
     command: ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.master.Master", "--host", "0.0.0.0"]
     ports:
       - "7077:7077"  # Spark master port
       - "8080:8080"  # Spark UI
+    
 
   spark-worker-1:
     build: 
       context: .
       dockerfile: Dockerfile.spark
     container_name: spark-worker-1
+    environment:
+      - PYSPARK_PYTHON=python3.12
+      - PYSPARK_DRIVER_PYTHON=python3.12
     depends_on:
       - spark-master
     command: ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.worker.Worker", "spark://spark-master:7077"]
@@ -26,6 +33,9 @@ services:
       context: .
       dockerfile: Dockerfile.spark
     container_name: spark-worker-2
+    environment:
+      - PYSPARK_PYTHON=python3.12
+      - PYSPARK_DRIVER_PYTHON=python3.12
     depends_on:
       - spark-master
     command: ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.worker.Worker", "spark://spark-master:7077"]
