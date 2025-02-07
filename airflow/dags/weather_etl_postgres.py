@@ -1,7 +1,13 @@
 from airflow import DAG
 from datetime import datetime, timedelta
 from airflow.operators.python import PythonOperator
+from airflow.operators.bash import BashOperator
+
 from airflow.providers.postgres.operators.postgres import PostgresOperator
+from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+from airflow.providers.postgres.hooks.postgres import PostgresHook
+
+
 import sys
 import os
 
@@ -13,16 +19,6 @@ from tasks.extract import extract_weather_data
 from tasks.transform import transform_weather_data
 # from tasks.extract import extract_weather_data
 
-# Define the transform task
-def transform_weather_data_xcom(**kwargs):
-    """
-    Perform data transformation and return the transformed data.
-    """
-    # Assuming transform_weather_data returns a pandas DataFrame
-    transformed_data = transform_weather_data()  # This should be your transformation logic
-    
-    # Convert the DataFrame to a list of dictionaries for XCom
-    return transformed_data.to_dict(orient='records')
 
 
 # Define the load task
@@ -33,9 +29,7 @@ def load_to_postgres_xcom(**kwargs):
     # Get the transformed data from XCom
     ti = kwargs['ti']
     transformed_data = ti.xcom_pull(task_ids='transform_weather_data')
-    
     # Connect to PostgreSQL
-    from airflow.providers.postgres.hooks.postgres import PostgresHook
     pg_hook = PostgresHook(postgres_conn_id='postgres_localhost')
     
     # SQL Insert statement
@@ -51,13 +45,13 @@ def load_to_postgres_xcom(**kwargs):
 
 # Define default arguments
 default_args = {
-    'owner': 'airflow',
+    'owner': 'zalihat',
     'depends_on_past': False,
-    'start_date': datetime(2025, 2, 3),
+    'start_date': datetime(2025, 2, 6),
     'email_on_failure': True,
     'email_on_retry': False,
     'retries': 1,
-    'retry_delay': timedelta(minutes=5),
+    'retry_delay': timedelta(minutes=1),
 }
 
 # Create the DAG
@@ -70,21 +64,25 @@ extract = PythonOperator(
     dag=dag,
 )
 
-transform = PythonOperator(
+move_files = BashOperator(
+    task_id="move_files",
+    bash_command="mv /opt/airflow/data/raw /shared-data/raw",
+)
+transform = SparkSubmitOperator(
     task_id='transform_weather_data',
-    python_callable=transform_weather_data_xcom,
-    provide_context=True,  # Allow access to XComs
-    dag=dag,
+    application='/opt/airflow/tasks/transform.py',  # Path to your Spark job
+    conn_id='spark_default',  # Airflow Spark connection
+    executor_cores=1,
+    executor_memory='1g',
+    driver_memory='1g',
+    conf={
+        "spark.jars": "/shared-data/postgresql-42.7.5.jar",
+        "spark.driver.extraClassPath": "/shared-data/postgresql-42.7.5.jar",
+        "spark.executor.extraClassPath": "/shared-data/postgresql-42.7.5.jar"
+    },
+    verbose=True,
+    dag=dag
 )
-
-load = PythonOperator(
-    task_id='load_to_postgres',
-    python_callable=load_to_postgres_xcom,
-    provide_context=True,
-    dag=dag,
-)
-
-
 create_table = PostgresOperator(
         task_id='create_processed_weather_data_table',
         postgres_conn_id='postgres_localhost',
@@ -105,4 +103,8 @@ create_table = PostgresOperator(
             )
         """
     )
-extract >> transform >> create_table >> load
+
+
+
+
+extract >> create_table >> transform 

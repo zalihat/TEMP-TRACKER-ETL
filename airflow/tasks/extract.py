@@ -12,8 +12,6 @@ import pandas as pd
 from datetime import datetime
 def extract_weather_data():
     # create a directory data and sub directory raw to store the raw data. This will serve as the data lake for the project
-    main_directory = "data_new"
-    sub_directory = "raw"
     # Load the .env file
     load_dotenv()
     # Access the API key
@@ -41,12 +39,12 @@ def extract_weather_data():
             os.makedirs(partition_path, exist_ok=True)
             data = json_df[json_df['date'] == unique_date]
             data.to_parquet(
-                os.path.join(partition_path, f"{data['location.localtime'].iloc[0]}.parquet")
+                os.path.join(partition_path, f"{unique_date}.parquet")
             ) 
         print("Raw data saved partitioned by date.")
        
     except Exception as e: 
-        print("undexpected error: {e}")
+        print(f"undexpected error: {e}")
 
-extract_weather_data()    
+# extract_weather_data()    
 
