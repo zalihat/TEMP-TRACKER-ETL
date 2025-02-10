@@ -29,7 +29,6 @@ ENV PYSPARK_DRIVER_PYTHON=python3.12
 RUN pip install pyspark
 
 # Copy your Spark application Python script
-COPY app.py /opt/spark/app.py
 
 # Default command to keep the container running
 CMD ["tail", "-f", "/dev/null"]

@@ -53,6 +53,7 @@ services:
     volumes:
       - ./airflow:/opt/airflow
       - ~/shared-data:/shared-data  # Shared volume
+      
 
     ports:
       - "8090:8080"
@@ -72,39 +73,9 @@ services:
       test: ["CMD", "pg_isready", "-U", "airflow"]
       retries: 5
     restart: always
-  # spark-job:
-  #   build: 
-  #     context: .
-  #     dockerfile: Dockerfile.spark
-  #   container_name: spark-job
-  #   depends_on:
-  #     - spark-master
-  #   command: ["/opt/spark/bin/spark-submit", "--master", "spark://spark-master:7077", "/opt/spark/app.py"]
+
 volumes:
   postgres_data:
-  # airflow:
-  #   image: apache/airflow:2.7.0
-  #   container_name: airflow
-  #   hostname: airflow
-  #   restart: always
-  #   depends_on:
-  #     - spark-master
-  #   environment:
-  #     - AIRFLOW__CORE__LOAD_EXAMPLES=False
-  #     - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
-  #     - AIRFLOW__WEBSERVER__DEFAULT_UI_TIMEZONE=UTC
-  #     - AIRFLOW__CORE__FERNET_KEY=<your_fernet_key>  # Generate if needed
-  #     - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/airflow.db
-  #   volumes:
-  #     - ./dags:/opt/airflow/dags
-  #     - ./logs:/opt/airflow/logs
-  #     - ./plugins:/opt/airflow/plugins
-  #   ports:
-  #     - "8089:8080"  # Airflow UI
-  #   command: >
-  #     bash -c "
-  #     airflow db init &&
-  #     airflow users create --username airflow --password airflow --firstname Air --lastname Flow --role Admin --email airflow@example.com &&
-  #     airflow webserver & airflow scheduler"
+
 
  
