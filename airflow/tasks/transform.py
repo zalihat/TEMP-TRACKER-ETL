@@ -38,7 +38,7 @@ def transform_weather_data():
         print(f"this is the _ {_}")
         print(f"this is the file_path{files}")
         for file_name in files:
-            if file_name.endswith(".parquet"):
+            if file_name.endswith(".parquet") and file_name not in processed_files:
             # and file_name not in processed_files:
                 file_path = os.path.join(root, file_name)
                 print(f"Processing: {file_path}")
@@ -78,10 +78,10 @@ def transform_weather_data():
         #             data.write.mode("overwrite").parquet(os.path.join(partition_path, f"{unique_date}.parquet"))
                 
         #         print("Processed data saved partitioned by date.")
-        #         processed_files.add(file_name)
+                processed_files.add(file_name)
                 
-        #         with open(log_file, "a") as f:
-        #             f.write(file_name + "\n")
+                with open(log_file, "a") as f:
+                    f.write(file_name + "\n")
         #         processed_df.show()
                 processed_df.write.jdbc(
                     url="jdbc:postgresql://postgres:5432/airflow",  # JDBC URL for Postgres

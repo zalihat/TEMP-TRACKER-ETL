@@ -16,11 +16,6 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
 # sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'tasks')))
 
 from tasks.extract import extract_weather_data
-from tasks.transform import transform_weather_data
-# from tasks.extract import extract_weather_data
-
-
-
 # Define the load task
 def load_to_postgres_xcom(**kwargs):
     """
