@@ -1,76 +1,63 @@
-# version: '3'
-
-# services:
-#   sleek-airflow:
-#     build:
-#       context: ./airflow
-#       dockerfile: Dockerfile
-#     image: temptracketl:latest
-#     volumes:
-#       - ./airflow:/opt/airflow
-#       - ./shared:/opt/shared
-#     ports:
-#       - "8080:8080"
-#     command: airflow standalone
-#     depends_on:
-#       - postgres
-#       - spark
-#     environment:
-#       - SPARK_MASTER=spark://spark:7077
-#       - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-
-#   postgres:
-#     image: postgres:13
-#     environment:
-#       POSTGRES_USER: airflow
-#       POSTGRES_PASSWORD: airflow
-#       POSTGRES_DB: airflow
-#     ports:
-#       - 5432:5432
-#     volumes:
-#       - postgres_data:/var/lib/postgresql/data
-#     healthcheck:
-#       test: ["CMD", "pg_isready", "-U", "airflow"]
-#       retries: 5
-#     restart: always
-#   spark:
-#     image: custom-spark:latest
-#     environment:
-#       - SPARK_MODE=master
-#       - SPARK_MASTER_HOST=spark
-#       - SPARK_WORKER_MEMORY=2G
-#     ports:
-#      - "7077:7077"
-#      - "8081:8081"
-#     volumes:
-#       - spark_data:/opt/spark
-#     networks:
-#       - default
-#   spark-worker:
-#     image: custom-spark:latest
-#     environment:
-#       - SPARK_MODE=worker
-#       - SPARK_MASTER_URL=spark://spark:7077
-#       - SPARK_WORKER_MEMORY=2G
-#     depends_on:
-#       - spark
-#     networks:
-#       - default
-
-# volumes:
-#   postgres_data:
-#   spark_data:
-
-
-version: '3'
+version: "3"
 
 services:
+  spark-master:
+    build: 
+      context: .
+      dockerfile: Dockerfile.spark
+    container_name: spark-master
+    environment:
+      - PYSPARK_PYTHON=python3.12
+      - PYSPARK_DRIVER_PYTHON=python3.12
+    hostname: spark-master
+    command: ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.master.Master", "--host", "0.0.0.0"]
+    ports:
+      - "7077:7077"  # Spark master port
+      - "8080:8080"  # Spark UI
+    volumes:
+      - ~/shared-data:/shared-data  # Shared volume
+
+
+  spark-worker-1:
+    build: 
+      context: .
+      dockerfile: Dockerfile.spark
+    container_name: spark-worker-1
+    environment:
+      - PYSPARK_PYTHON=python3.12
+      - PYSPARK_DRIVER_PYTHON=python3.12
+    
+    depends_on:
+      - spark-master
+    volumes:
+      - ~/shared-data:/shared-data  # Shared volume
+
+    command: ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.worker.Worker", "spark://spark-master:7077"]
+
+  spark-worker-2:
+    build: 
+      context: .
+      dockerfile: Dockerfile.spark
+    container_name: spark-worker-2
+    environment:
+      - PYSPARK_PYTHON=python3.12
+      - PYSPARK_DRIVER_PYTHON=python3.12
+    depends_on:
+      - spark-master
+    volumes:
+      - ~/shared-data:/shared-data  # Shared volume
+
+    command: ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.worker.Worker", "spark://spark-master:7077"]
   airflow:
-    image: temptracker:latest
+    image: airflow:latest
     volumes:
       - ./airflow:/opt/airflow
+      - ~/shared-data:/shared-data  # Shared volume
+      
+
     ports:
-      - "8025:8080"
+      - "8090:8080"
+    
     command: airflow standalone
   postgres:
     image: postgres:13
@@ -89,3 +76,6 @@ services:
 
 volumes:
   postgres_data:
+
+
+ 

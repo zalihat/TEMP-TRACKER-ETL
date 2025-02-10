@@ -1,0 +1,520 @@
+[2025-02-10T08:38:38.813+0000] {processor.py:186} INFO - Started process (PID=585) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T08:38:38.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T08:38:38.845+0000] {logging_mixin.py:190} INFO - [2025-02-10T08:38:38.843+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T08:38:41.421+0000] {logging_mixin.py:190} INFO - {'location': {'name': 'Gwagwaldda', 'region': 'Federal Capital Territory', 'country': 'Nigeria', 'lat': 8.9414, 'lon': 7.0919, 'tz_id': 'Africa/Lagos', 'localtime_epoch': 1739176214, 'localtime': '2025-02-10 09:30'}, 'current': {'last_updated_epoch': 1739176200, 'last_updated': '2025-02-10 09:30', 'temp_c': 28.3, 'temp_f': 82.9, 'is_day': 1, 'condition': {'text': 'Mist', 'icon': '//cdn.weatherapi.com/weather/64x64/day/143.png', 'code': 1030}, 'wind_mph': 3.8, 'wind_kph': 6.1, 'wind_degree': 131, 'wind_dir': 'SE', 'pressure_mb': 1010.0, 'pressure_in': 29.83, 'precip_mm': 0.0, 'precip_in': 0.0, 'humidity': 33, 'cloud': 0, 'feelslike_c': 26.3, 'feelslike_f': 79.3, 'windchill_c': 30.1, 'windchill_f': 86.1, 'heatindex_c': 27.8, 'heatindex_f': 82.1, 'dewpoint_c': -1.0, 'dewpoint_f': 30.2, 'vis_km': 5.0, 'vis_miles': 3.0, 'uv': 2.0, 'gust_mph': 4.4, 'gust_kph': 7.1}}
+[2025-02-10T08:38:41.527+0000] {logging_mixin.py:190} INFO -   location.name            location.region  ... current.gust_mph  current.gust_kph
+0    Gwagwaldda  Federal Capital Territory  ...              4.4               7.1
+
+[1 rows x 39 columns]
+[2025-02-10T08:38:41.600+0000] {logging_mixin.py:190} INFO - Raw data saved partitioned by date.
+[2025-02-10T08:38:41.669+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T08:38:41.766+0000] {logging_mixin.py:190} INFO - [2025-02-10T08:38:41.766+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T08:38:41.939+0000] {logging_mixin.py:190} INFO - [2025-02-10T08:38:41.938+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T08:38:42.088+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 3.369 seconds
+[2025-02-10T08:54:57.329+0000] {processor.py:186} INFO - Started process (PID=600) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T08:54:57.334+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T08:54:57.353+0000] {logging_mixin.py:190} INFO - [2025-02-10T08:54:57.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T08:55:01.409+0000] {logging_mixin.py:190} INFO - {'location': {'name': 'Gwagwaldda', 'region': 'Federal Capital Territory', 'country': 'Nigeria', 'lat': 8.9414, 'lon': 7.0919, 'tz_id': 'Africa/Lagos', 'localtime_epoch': 1739177627, 'localtime': '2025-02-10 09:53'}, 'current': {'last_updated_epoch': 1739177100, 'last_updated': '2025-02-10 09:45', 'temp_c': 28.3, 'temp_f': 82.9, 'is_day': 1, 'condition': {'text': 'Mist', 'icon': '//cdn.weatherapi.com/weather/64x64/day/143.png', 'code': 1030}, 'wind_mph': 3.8, 'wind_kph': 6.1, 'wind_degree': 131, 'wind_dir': 'SE', 'pressure_mb': 1010.0, 'pressure_in': 29.83, 'precip_mm': 0.0, 'precip_in': 0.0, 'humidity': 33, 'cloud': 0, 'feelslike_c': 26.3, 'feelslike_f': 79.3, 'windchill_c': 30.1, 'windchill_f': 86.1, 'heatindex_c': 27.8, 'heatindex_f': 82.1, 'dewpoint_c': -1.0, 'dewpoint_f': 30.2, 'vis_km': 5.0, 'vis_miles': 3.0, 'uv': 2.0, 'gust_mph': 4.4, 'gust_kph': 7.1}}
+[2025-02-10T08:55:01.680+0000] {logging_mixin.py:190} INFO -   location.name            location.region  ... current.gust_mph  current.gust_kph
+0    Gwagwaldda  Federal Capital Territory  ...              4.4               7.1
+
+[1 rows x 39 columns]
+[2025-02-10T08:55:01.756+0000] {logging_mixin.py:190} INFO - Raw data saved partitioned by date.
+[2025-02-10T08:55:01.789+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T08:55:01.942+0000] {logging_mixin.py:190} INFO - [2025-02-10T08:55:01.941+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T08:55:02.080+0000] {logging_mixin.py:190} INFO - [2025-02-10T08:55:02.079+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T08:55:02.624+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 5.338 seconds
+[2025-02-10T09:20:34.954+0000] {processor.py:186} INFO - Started process (PID=795) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T09:20:34.957+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T09:20:34.961+0000] {logging_mixin.py:190} INFO - [2025-02-10T09:20:34.960+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T09:20:43.642+0000] {logging_mixin.py:190} INFO - undexpected error: HTTPSConnectionPool(host='weatherapi-com.p.rapidapi.com', port=443): Max retries exceeded with url: /current.json?q=8.950%2C7.0767 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f8fd68f8710>: Failed to resolve 'weatherapi-com.p.rapidapi.com' ([Errno -3] Temporary failure in name resolution)"))
+[2025-02-10T09:20:43.649+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T09:20:43.683+0000] {logging_mixin.py:190} INFO - [2025-02-10T09:20:43.683+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T09:20:43.711+0000] {logging_mixin.py:190} INFO - [2025-02-10T09:20:43.710+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T09:20:43.771+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 8.829 seconds
+[2025-02-10T09:21:14.165+0000] {processor.py:186} INFO - Started process (PID=799) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T09:21:14.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T09:21:14.169+0000] {logging_mixin.py:190} INFO - [2025-02-10T09:21:14.169+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:37:32.046+0000] {processor.py:186} INFO - Started process (PID=56) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:37:32.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:37:32.062+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:37:32.061+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:37:33.736+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:37:33.811+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:37:33.811+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:37:33.837+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:37:33.837+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:37:33.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 1.882 seconds
+[2025-02-10T11:38:24.743+0000] {processor.py:186} INFO - Started process (PID=267) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:38:24.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:38:24.746+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:38:24.746+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:38:25.256+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:38:25.278+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:38:25.278+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:38:25.306+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:38:25.306+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:38:25.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.623 seconds
+[2025-02-10T11:38:56.151+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:38:56.152+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:38:56.153+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:38:56.153+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:38:56.772+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:38:56.801+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:38:56.801+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:38:56.830+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:38:56.830+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:38:56.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.724 seconds
+[2025-02-10T11:39:27.791+0000] {processor.py:186} INFO - Started process (PID=275) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:39:27.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:39:27.794+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:39:27.794+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:39:28.359+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:39:28.385+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:39:28.385+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:39:28.406+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:39:28.406+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:39:28.448+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.663 seconds
+[2025-02-10T11:39:58.739+0000] {processor.py:186} INFO - Started process (PID=279) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:39:58.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:39:58.742+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:39:58.741+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:39:59.322+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:39:59.346+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:39:59.346+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:39:59.367+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:39:59.367+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:39:59.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.673 seconds
+[2025-02-10T11:40:29.666+0000] {processor.py:186} INFO - Started process (PID=283) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:40:29.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:40:29.669+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:40:29.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:40:30.230+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:40:30.254+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:40:30.254+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:40:30.275+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:40:30.274+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:40:30.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.663 seconds
+[2025-02-10T11:41:00.484+0000] {processor.py:186} INFO - Started process (PID=287) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:41:00.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:41:00.487+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:41:00.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:41:01.121+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:41:01.150+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:41:01.150+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:41:01.171+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:41:01.171+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:41:01.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.737 seconds
+[2025-02-10T11:41:31.622+0000] {processor.py:186} INFO - Started process (PID=291) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:41:31.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:41:31.626+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:41:31.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:41:32.318+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:41:32.348+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:41:32.348+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:41:32.376+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:41:32.376+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:41:32.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.821 seconds
+[2025-02-10T11:42:03.385+0000] {processor.py:186} INFO - Started process (PID=295) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:42:03.387+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:42:03.388+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:42:03.388+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:42:04.139+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:42:04.175+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:42:04.174+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:42:04.210+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:42:04.210+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:42:04.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.889 seconds
+[2025-02-10T11:42:34.836+0000] {processor.py:186} INFO - Started process (PID=299) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:42:34.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:42:34.841+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:42:34.841+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:42:35.495+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:42:35.521+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:42:35.521+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:42:35.553+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:42:35.553+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:42:35.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.783 seconds
+[2025-02-10T11:43:06.555+0000] {processor.py:186} INFO - Started process (PID=303) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:43:06.556+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:43:06.558+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:43:06.558+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:43:07.259+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:43:07.292+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:43:07.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:43:07.315+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:43:07.314+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:43:07.367+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.819 seconds
+[2025-02-10T11:43:37.888+0000] {processor.py:186} INFO - Started process (PID=307) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:43:37.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:43:37.891+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:43:37.890+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:43:38.458+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:43:38.491+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:43:38.490+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:43:38.513+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:43:38.513+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:43:38.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.686 seconds
+[2025-02-10T11:44:41.423+0000] {processor.py:186} INFO - Started process (PID=551) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:44:41.425+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:44:41.427+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:44:41.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:44:42.308+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:44:42.344+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:44:42.343+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:44:42.365+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:44:42.364+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:44:42.413+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.996 seconds
+[2025-02-10T11:45:13.324+0000] {processor.py:186} INFO - Started process (PID=555) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:45:13.326+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:45:13.328+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:45:13.327+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:45:13.928+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:45:13.956+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:45:13.955+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:45:13.978+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:45:13.978+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:45:14.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.705 seconds
+[2025-02-10T11:46:28.036+0000] {processor.py:186} INFO - Started process (PID=747) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:46:28.038+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:46:28.040+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:46:28.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:46:28.718+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:46:28.750+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:46:28.749+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:46:28.771+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:46:28.771+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:46:28.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.790 seconds
+[2025-02-10T11:46:59.608+0000] {processor.py:186} INFO - Started process (PID=751) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:46:59.610+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:46:59.612+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:46:59.611+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:47:00.198+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:47:00.223+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:47:00.223+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:47:00.245+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:47:00.245+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:47:00.300+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.698 seconds
+[2025-02-10T11:47:31.322+0000] {processor.py:186} INFO - Started process (PID=755) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:47:31.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:47:31.325+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:47:31.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:47:31.874+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:47:31.907+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:47:31.906+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:47:31.930+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:47:31.929+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:47:31.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.662 seconds
+[2025-02-10T11:48:02.257+0000] {processor.py:186} INFO - Started process (PID=759) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:48:02.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:48:02.260+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:48:02.260+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:48:02.845+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:48:02.868+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:48:02.868+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:48:02.894+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:48:02.893+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:48:02.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.686 seconds
+[2025-02-10T11:48:33.095+0000] {processor.py:186} INFO - Started process (PID=763) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:48:33.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:48:33.098+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:48:33.098+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:48:33.649+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:48:33.675+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:48:33.674+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:48:33.694+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:48:33.694+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:48:33.733+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.644 seconds
+[2025-02-10T11:49:04.127+0000] {processor.py:186} INFO - Started process (PID=767) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:49:04.129+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:49:04.131+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:49:04.131+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:49:04.513+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:49:04.542+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:49:04.542+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:49:04.564+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:49:04.564+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:49:04.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.483 seconds
+[2025-02-10T11:49:35.473+0000] {processor.py:186} INFO - Started process (PID=771) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:49:35.474+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:49:35.477+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:49:35.476+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:49:35.921+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:49:35.955+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:49:35.955+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:49:35.987+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:49:35.987+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:49:36.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.572 seconds
+[2025-02-10T11:50:06.921+0000] {processor.py:186} INFO - Started process (PID=775) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:50:06.922+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:50:06.923+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:50:06.923+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:50:07.343+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:50:07.379+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:50:07.379+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:50:07.403+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:50:07.403+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:50:07.455+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.543 seconds
+[2025-02-10T11:50:38.577+0000] {processor.py:186} INFO - Started process (PID=779) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:50:38.578+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:50:38.580+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:50:38.580+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:50:38.923+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:50:38.947+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:50:38.947+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:50:38.968+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:50:38.967+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:50:39.010+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.440 seconds
+[2025-02-10T11:51:09.497+0000] {processor.py:186} INFO - Started process (PID=783) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:51:09.499+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:51:09.502+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:51:09.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:51:09.922+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:51:09.949+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:51:09.949+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:51:09.971+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:51:09.970+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:51:10.014+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.525 seconds
+[2025-02-10T11:51:40.267+0000] {processor.py:186} INFO - Started process (PID=787) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:51:40.269+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:51:40.270+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:51:40.270+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:51:40.614+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:51:40.642+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:51:40.642+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:51:40.666+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:51:40.666+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:51:40.704+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.443 seconds
+[2025-02-10T11:52:11.004+0000] {processor.py:186} INFO - Started process (PID=791) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:52:11.005+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:52:11.007+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:52:11.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:52:11.357+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:52:11.386+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:52:11.386+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:52:11.411+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:52:11.410+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:52:11.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.454 seconds
+[2025-02-10T11:52:41.735+0000] {processor.py:186} INFO - Started process (PID=795) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:52:41.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:52:41.738+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:52:41.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:52:42.168+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:52:42.200+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:52:42.199+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:52:42.226+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:52:42.225+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:52:42.270+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.542 seconds
+[2025-02-10T11:53:12.589+0000] {processor.py:186} INFO - Started process (PID=799) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:53:12.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:53:12.592+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:53:12.592+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:53:12.937+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:53:12.966+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:53:12.966+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:53:12.989+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:53:12.988+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:53:13.025+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.442 seconds
+[2025-02-10T11:53:43.285+0000] {processor.py:186} INFO - Started process (PID=803) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:53:43.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:53:43.290+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:53:43.289+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:53:43.778+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:53:43.813+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:53:43.813+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:53:43.840+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:53:43.840+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:53:43.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.619 seconds
+[2025-02-10T11:54:14.273+0000] {processor.py:186} INFO - Started process (PID=807) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:54:14.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:54:14.277+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:54:14.276+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:54:14.725+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:54:14.754+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:54:14.753+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:54:14.777+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:54:14.777+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:54:14.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.549 seconds
+[2025-02-10T11:54:45.124+0000] {processor.py:186} INFO - Started process (PID=811) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:54:45.126+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:54:45.127+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:54:45.127+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:54:45.547+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:54:45.577+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:54:45.577+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:54:45.599+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:54:45.599+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:54:45.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.520 seconds
+[2025-02-10T11:55:15.929+0000] {processor.py:186} INFO - Started process (PID=815) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:55:15.930+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:55:15.932+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:55:15.931+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:55:16.298+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:55:16.327+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:55:16.327+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:55:16.363+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:55:16.363+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:55:16.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.494 seconds
+[2025-02-10T11:55:46.608+0000] {processor.py:186} INFO - Started process (PID=819) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:55:46.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:55:46.613+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:55:46.612+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:55:47.075+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:55:47.105+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:55:47.105+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:55:47.128+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:55:47.128+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:55:47.173+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.571 seconds
+[2025-02-10T11:56:17.367+0000] {processor.py:186} INFO - Started process (PID=823) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:56:17.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:56:17.370+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:56:17.369+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:56:17.720+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:56:17.745+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:56:17.745+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:56:17.766+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:56:17.766+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:56:17.805+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.444 seconds
+[2025-02-10T11:56:48.026+0000] {processor.py:186} INFO - Started process (PID=827) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:56:48.028+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:56:48.029+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:56:48.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:56:48.387+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:56:48.418+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:56:48.418+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:56:48.440+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:56:48.440+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:56:48.478+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.458 seconds
+[2025-02-10T11:57:18.690+0000] {processor.py:186} INFO - Started process (PID=831) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:57:18.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:57:18.693+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:57:18.692+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:57:19.072+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:57:19.101+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:57:19.101+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:57:19.123+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:57:19.123+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:57:19.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.484 seconds
+[2025-02-10T11:57:49.354+0000] {processor.py:186} INFO - Started process (PID=835) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:57:49.356+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:57:49.357+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:57:49.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:57:49.716+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:57:49.748+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:57:49.747+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:57:49.769+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:57:49.769+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:57:49.807+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.459 seconds
+[2025-02-10T11:58:20.024+0000] {processor.py:186} INFO - Started process (PID=839) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:58:20.025+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:58:20.027+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:58:20.027+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:58:20.415+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:58:20.442+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:58:20.442+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:58:20.464+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:58:20.463+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:58:20.501+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.483 seconds
+[2025-02-10T11:58:50.677+0000] {processor.py:186} INFO - Started process (PID=843) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:58:50.678+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:58:50.680+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:58:50.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:58:51.021+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:58:51.049+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:58:51.049+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:58:51.071+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:58:51.070+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:58:51.136+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.466 seconds
+[2025-02-10T11:59:21.201+0000] {processor.py:186} INFO - Started process (PID=847) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:59:21.202+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:59:21.204+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:59:21.203+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:59:21.628+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:59:21.662+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:59:21.662+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:59:21.688+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:59:21.688+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:59:21.732+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.539 seconds
+[2025-02-10T11:59:51.939+0000] {processor.py:186} INFO - Started process (PID=851) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:59:51.940+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T11:59:51.941+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:59:51.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:59:52.450+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T11:59:52.477+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:59:52.476+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T11:59:52.499+0000] {logging_mixin.py:190} INFO - [2025-02-10T11:59:52.498+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T11:59:52.537+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.605 seconds
+[2025-02-10T12:00:22.733+0000] {processor.py:186} INFO - Started process (PID=855) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:00:22.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:00:22.738+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:00:22.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:00:23.240+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:00:23.281+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:00:23.280+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:00:23.313+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:00:23.312+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:00:23.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.642 seconds
+[2025-02-10T12:01:16.130+0000] {processor.py:186} INFO - Started process (PID=1006) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:01:16.131+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:01:16.134+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:01:16.133+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:01:16.522+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:01:16.555+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:01:16.554+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:01:16.581+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:01:16.580+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:01:16.624+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.502 seconds
+[2025-02-10T12:01:48.214+0000] {processor.py:186} INFO - Started process (PID=1034) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:01:48.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:01:48.217+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:01:48.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:01:48.588+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:01:48.622+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:01:48.621+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:01:48.651+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:01:48.650+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:01:48.693+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.486 seconds
+[2025-02-10T12:02:43.814+0000] {processor.py:186} INFO - Started process (PID=1347) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:02:43.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:02:43.818+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:02:43.817+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:02:44.322+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:02:44.359+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:02:44.358+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:02:44.388+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:02:44.387+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:02:44.433+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.627 seconds
+[2025-02-10T12:03:48.835+0000] {processor.py:186} INFO - Started process (PID=1631) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:03:48.838+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:03:48.840+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:03:48.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:03:49.393+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:03:49.427+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:03:49.426+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:03:49.455+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:03:49.455+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:03:49.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.667 seconds
+[2025-02-10T12:04:20.152+0000] {processor.py:186} INFO - Started process (PID=1635) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:04:20.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:04:20.155+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:04:20.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:04:20.626+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:04:20.651+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:04:20.651+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:04:20.673+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:04:20.672+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:04:20.716+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.571 seconds
+[2025-02-10T12:04:51.808+0000] {processor.py:186} INFO - Started process (PID=1639) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:04:51.809+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:04:51.811+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:04:51.811+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:04:52.225+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:04:52.252+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:04:52.252+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:04:52.276+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:04:52.276+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:04:52.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.518 seconds
+[2025-02-10T12:05:22.574+0000] {processor.py:186} INFO - Started process (PID=1643) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:05:22.576+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:05:22.578+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:05:22.577+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:05:23.026+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:05:23.054+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:05:23.054+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:05:23.076+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:05:23.076+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:05:23.118+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.551 seconds
+[2025-02-10T12:05:53.315+0000] {processor.py:186} INFO - Started process (PID=1647) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:05:53.316+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:05:53.317+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:05:53.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:05:53.655+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:05:53.682+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:05:53.681+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:05:53.702+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:05:53.702+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:05:53.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.431 seconds
+[2025-02-10T12:06:23.983+0000] {processor.py:186} INFO - Started process (PID=1651) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:06:23.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:06:23.987+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:06:23.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:06:24.414+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:06:24.445+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:06:24.445+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:06:24.468+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:06:24.468+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:06:24.520+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.545 seconds
+[2025-02-10T12:06:54.892+0000] {processor.py:186} INFO - Started process (PID=1655) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:06:54.894+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:06:54.897+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:06:54.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:06:55.360+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:06:55.385+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:06:55.385+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:06:55.408+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:06:55.408+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:06:55.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.566 seconds
+[2025-02-10T12:07:25.802+0000] {processor.py:186} INFO - Started process (PID=1659) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:07:25.803+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:07:25.805+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:07:25.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:07:26.239+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:07:26.273+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:07:26.273+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:07:26.296+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:07:26.296+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:07:26.339+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.543 seconds
+[2025-02-10T12:07:56.608+0000] {processor.py:186} INFO - Started process (PID=1663) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:07:56.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:07:56.611+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:07:56.611+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:07:56.974+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:07:57.010+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:07:57.010+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:07:57.034+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:07:57.033+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:07:57.087+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.485 seconds
+[2025-02-10T12:08:27.403+0000] {processor.py:186} INFO - Started process (PID=1667) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:08:27.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:08:27.406+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:08:27.406+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:08:27.875+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:08:27.908+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:08:27.908+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:08:27.939+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:08:27.939+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:08:27.984+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.589 seconds
+[2025-02-10T12:08:58.255+0000] {processor.py:186} INFO - Started process (PID=1671) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:08:58.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:08:58.260+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:08:58.259+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:08:58.626+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:08:58.653+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:08:58.653+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:08:58.676+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:08:58.676+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:08:58.718+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.469 seconds
+[2025-02-10T12:09:28.899+0000] {processor.py:186} INFO - Started process (PID=1675) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:09:28.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:09:28.904+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:09:28.903+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:09:29.372+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:09:29.414+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:09:29.414+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:09:29.443+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:09:29.443+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:09:29.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.597 seconds
+[2025-02-10T12:09:59.567+0000] {processor.py:186} INFO - Started process (PID=1679) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:09:59.569+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:09:59.572+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:09:59.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:10:00.133+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:10:00.172+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:10:00.171+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:10:00.197+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:10:00.197+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:10:00.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.702 seconds
+[2025-02-10T12:10:33.577+0000] {processor.py:186} INFO - Started process (PID=1695) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:10:33.578+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:10:33.580+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:10:33.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:10:34.009+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:10:34.042+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:10:34.041+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:10:34.067+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:10:34.067+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:10:34.113+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.544 seconds
+[2025-02-10T12:11:56.472+0000] {processor.py:186} INFO - Started process (PID=1997) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:11:56.474+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:11:56.476+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:11:56.476+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:11:56.988+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:11:57.557+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:11:57.557+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:11:57.579+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:11:57.579+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:11:57.630+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 1.166 seconds
+[2025-02-10T12:12:28.209+0000] {processor.py:186} INFO - Started process (PID=2001) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:12:28.211+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:12:28.213+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:12:28.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:12:28.767+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:12:28.808+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:12:28.807+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:12:28.861+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:12:28.860+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:12:28.926+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.728 seconds
+[2025-02-10T12:13:57.077+0000] {processor.py:186} INFO - Started process (PID=2285) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:13:57.079+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:13:57.081+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:13:57.080+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:13:57.509+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:13:57.537+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:13:57.537+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:13:57.563+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:13:57.563+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:13:57.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.724 seconds
+[2025-02-10T12:14:28.645+0000] {processor.py:186} INFO - Started process (PID=2289) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:14:28.646+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:14:28.648+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:14:28.648+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:14:29.122+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:14:29.160+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:14:29.160+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:14:29.385+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:14:29.385+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:14:29.422+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.785 seconds
+[2025-02-10T12:15:00.396+0000] {processor.py:186} INFO - Started process (PID=2293) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:15:00.398+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:15:00.400+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:15:00.399+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:15:00.845+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:15:01.073+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:15:01.073+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:15:01.096+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:15:01.096+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:15:01.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.746 seconds
+[2025-02-10T12:16:03.768+0000] {processor.py:186} INFO - Started process (PID=2582) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:16:03.770+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:16:03.772+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:16:03.771+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:16:04.277+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:16:04.508+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:16:04.507+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:16:04.531+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:16:04.531+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:16:04.577+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.817 seconds
+[2025-02-10T12:16:35.233+0000] {processor.py:186} INFO - Started process (PID=2586) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:16:35.235+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:16:35.236+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:16:35.236+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:16:35.650+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:16:35.852+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:16:35.852+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:16:35.872+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:16:35.872+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:16:35.914+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.688 seconds
+[2025-02-10T12:17:06.992+0000] {processor.py:186} INFO - Started process (PID=2590) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:17:06.994+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:17:06.997+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:17:06.996+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:17:07.595+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:17:07.625+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:17:07.625+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:17:07.647+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:17:07.647+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:17:07.691+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.706 seconds
+[2025-02-10T12:18:15.135+0000] {processor.py:186} INFO - Started process (PID=2840) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:18:15.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:18:15.139+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:18:15.138+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:18:15.757+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:18:15.781+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:18:15.781+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:18:15.803+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:18:15.803+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:18:15.846+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.720 seconds
+[2025-02-10T12:18:46.624+0000] {processor.py:186} INFO - Started process (PID=2844) to work on /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:18:46.626+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/weather_etl_postgres.py for tasks to queue
+[2025-02-10T12:18:46.628+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:18:46.628+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:18:47.258+0000] {processor.py:925} INFO - DAG(s) 'Temp_elt_postgres' retrieved from /opt/airflow/dags/weather_etl_postgres.py
+[2025-02-10T12:18:47.293+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:18:47.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T12:18:47.322+0000] {logging_mixin.py:190} INFO - [2025-02-10T12:18:47.322+0000] {dag.py:4180} INFO - Setting next_dagrun for Temp_elt_postgres to 2025-02-10 00:00:00+00:00, run_after=2025-02-11 00:00:00+00:00
+[2025-02-10T12:18:47.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/weather_etl_postgres.py took 0.757 seconds

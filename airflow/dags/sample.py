@@ -19,7 +19,7 @@ with DAG(
     default_args=default_args,
     description='A simple DAG with 3 tasks printing Hello',
     schedule_interval=None,  # Run manually
-    start_date=datetime(2025, 1, 1),
+    start_date=datetime(2025, 2, 2),
     catchup=False,
 ) as dag:
 
