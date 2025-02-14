@@ -1,8 +1,0 @@
-[2025-01-11T11:43:28.549+0100] {processor.py:186} INFO - Started process (PID=14480) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
-[2025-01-11T11:43:28.555+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
-[2025-01-11T11:43:28.556+0100] {logging_mixin.py:190} INFO - [2025-01-11T11:43:28.556+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
-[2025-01-11T11:43:28.597+0100] {logging_mixin.py:190} INFO - [2025-01-11T11:43:28.597+0100] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
-[2025-01-11T11:43:28.605+0100] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
-[2025-01-11T11:43:28.790+0100] {logging_mixin.py:190} INFO - [2025-01-11T11:43:28.789+0100] {dag.py:3239} INFO - Sync 1 DAGs
-[2025-01-11T11:43:28.803+0100] {logging_mixin.py:190} INFO - [2025-01-11T11:43:28.803+0100] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
-[2025-01-11T11:43:28.835+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.292 seconds

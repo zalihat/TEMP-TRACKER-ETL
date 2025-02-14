@@ -1,0 +1,24 @@
+[2025-02-05T08:35:25.896+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-05T08:35:25.917+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Temp_elt_postgres.extract_weather_data scheduled__2025-02-04T00:00:00+00:00 [queued]>
+[2025-02-05T08:35:25.929+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Temp_elt_postgres.extract_weather_data scheduled__2025-02-04T00:00:00+00:00 [queued]>
+[2025-02-05T08:35:25.929+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-02-05T08:35:25.990+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract_weather_data> on 2025-02-04 00:00:00+00:00
+[2025-02-05T08:35:26.011+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'Temp_elt_postgres', 'extract_weather_data', 'scheduled__2025-02-04T00:00:00+00:00', '--job-id', '120', '--raw', '--subdir', 'DAGS_FOLDER/weather_etl_postgres.py', '--cfg-path', '/tmp/tmpjsxqxsil']
+[2025-02-05T08:35:26.021+0000] {standard_task_runner.py:105} INFO - Job 120: Subtask extract_weather_data
+[2025-02-05T08:35:26.029+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=60) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-05T08:35:26.030+0000] {standard_task_runner.py:72} INFO - Started process 77 to run task
+[2025-02-05T08:35:26.166+0000] {task_command.py:467} INFO - Running <TaskInstance: Temp_elt_postgres.extract_weather_data scheduled__2025-02-04T00:00:00+00:00 [running]> on host 101978fdae17
+[2025-02-05T08:35:26.360+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Temp_elt_postgres' AIRFLOW_CTX_TASK_ID='extract_weather_data' AIRFLOW_CTX_EXECUTION_DATE='2025-02-04T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-04T00:00:00+00:00'
+[2025-02-05T08:35:26.363+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-05T08:35:27.607+0000] {logging_mixin.py:190} INFO - {'location': {'name': 'Gwagwaldda', 'region': 'Federal Capital Territory', 'country': 'Nigeria', 'lat': 8.9414, 'lon': 7.0919, 'tz_id': 'Africa/Lagos', 'localtime_epoch': 1738744528, 'localtime': '2025-02-05 09:35'}, 'current': {'last_updated_epoch': 1738744200, 'last_updated': '2025-02-05 09:30', 'temp_c': 23.1, 'temp_f': 73.6, 'is_day': 1, 'condition': {'text': 'Mist', 'icon': '//cdn.weatherapi.com/weather/64x64/day/143.png', 'code': 1030}, 'wind_mph': 3.1, 'wind_kph': 5.0, 'wind_degree': 93, 'wind_dir': 'E', 'pressure_mb': 1012.0, 'pressure_in': 29.88, 'precip_mm': 0.0, 'precip_in': 0.0, 'humidity': 53, 'cloud': 0, 'feelslike_c': 22.6, 'feelslike_f': 72.8, 'windchill_c': 29.0, 'windchill_f': 84.1, 'heatindex_c': 26.8, 'heatindex_f': 80.3, 'dewpoint_c': -0.5, 'dewpoint_f': 31.1, 'vis_km': 7.0, 'vis_miles': 4.0, 'uv': 2.2, 'gust_mph': 3.6, 'gust_kph': 5.8}}
+[2025-02-05T08:35:27.735+0000] {logging_mixin.py:190} INFO -   location.name            location.region  ... current.gust_mph  current.gust_kph
+0    Gwagwaldda  Federal Capital Territory  ...              3.6               5.8
+
+[1 rows x 39 columns]
+[2025-02-05T08:35:28.180+0000] {logging_mixin.py:190} INFO - Raw data saved partitioned by date.
+[2025-02-05T08:35:28.181+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-05T08:35:28.193+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-05T08:35:28.193+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Temp_elt_postgres, task_id=extract_weather_data, run_id=scheduled__2025-02-04T00:00:00+00:00, execution_date=20250204T000000, start_date=20250205T083525, end_date=20250205T083528
+[2025-02-05T08:35:28.246+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-05T08:35:28.290+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-05T08:35:28.299+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

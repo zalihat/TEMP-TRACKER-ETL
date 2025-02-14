@@ -1,5 +1,0 @@
-[2025-01-11T11:40:56.333+0100] {processor.py:186} INFO - Started process (PID=13652) to work on /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
-[2025-01-11T11:40:56.340+0100] {processor.py:914} INFO - Processing file /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
-[2025-01-11T11:40:56.341+0100] {logging_mixin.py:190} INFO - [2025-01-11T11:40:56.341+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
-[2025-01-11T11:40:56.352+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
-[2025-01-11T11:40:56.540+0100] {processor.py:208} INFO - Processing /Users/azeez.ganiyu/airflow_venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.219 seconds
