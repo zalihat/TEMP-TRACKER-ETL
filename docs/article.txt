@@ -1,0 +1,120 @@
+Building a Data Pipeline with Apache Airflow: A Hands-On Guide from the Trenches
+Setting up apache airflow locally using docker
+Ever found yourself manually running data workflows, checking logs, and fixing failed jobs? Apache Airflow is here to automate that for you.
+This article is a quick guide on how to setup airflow standalone instance on your local using docker and docker compose
+Apache Airflow® is an open-source platform for developing, scheduling, and monitoring batch-oriented workflows. 
+Airflow's extensible Python framework enables you to build workflows connecting with virtually any technology. 
+A web interface helps manage the state of your workflows.
+Airflow is deployable in many ways, varying from a single process on your laptop to a distributed setup to support even the biggest workflows (ref airflow documentation).
+Prerequisite 
+Before we dive in, make sure you have the following:
+Basic knowledge of Apache Airflow components - You will need to understand DAGs, tasks, and operators.
+Basic understanding of Docker and Docker Compose - We will be using containers to set up our local environment.
+Python - Airflow workflows (DAGs) are written in Python.
+
+Step 1: Install Docker desktop
+If you already have Docker installed, check the version with this command on your terminal. 
+Ensure Docker is running before running the command: Open Docker Desktop and wait until it is fully started.
+docker --version
+If not, follow this guide to install Docker on Mac and Windows.
+Step 2: Install Docker compose
+Docker Desktop includes Docker Compose as part of its installation, meaning you automatically get Docker Compose when you install Docker Desktop on your system. 
+To verify that you have Docker Compose installed, run this command on your terminal.
+docker-compose --version
+
+Step 3:  Create custom Apache Airflow image 
+To customise our Airflow setup, we will create a custom Docker image with Git installed.
+In a directory of your choice, create a file named Dockerfile and insert the following code:
+FROM apache/airflow:latest
+USER root
+RUN apt-get update && \
+    apt-get -y install git && \
+    apt-get clean
+USER airflow
+The official Airflow Docker image is designed to run under the airflow user. We temporarily switch to root to install Git but return to airflow for security and compatibility reasons. 
+To build the custom image, run the following command:
+docker build -t airflow:latest .
+This command builds a Docker image named airflow with the tag latest.
+Ensure that you are in the directory containing your Dockerfile before running the docker build command.
+Step 4: Create The Docker Compose file
+In the same directory create a file named docker-compose.yml
+ and insert the following code.
+version: "3"
+services:
+  airflow:
+    image: airflow:latest
+    volumes:
+      - ./airflow:/opt/airflow
+    ports:
+      - "8090:8080"
+    command: airflow standalone
+In the Docker Compose file we used the custom image we built named airflow:latest 
+We mount the local ./airflow directory to /opt/airflow inside the container. When running airflow standalone, Airflow automatically sets up its necessary directories. 
+We map port 8080 of the container to port 8090 on the host, allowing us to access the Airflow UI locally at http://localhost:8090. If port 8090 is already in use, you can change the first number in 8090:8080 to any available port on your host.
+Step 5: Start the Airflow container
+To start the container run this command
+docker-compose up 
+the first time you run this it creates a directory named airflow in your working directory
+Step 6: Access the Airflow Web interface
+Once the airflow service is up you can access the airflow UI at http://localhost:8090/ . Note that if you changed the port earlier you need to also change the port.
+
+Login credentials
+The username is airflow 
+The password is located in a file located at /airflow/standalone_admin_password.txt 
+Once logged in you will see an interface similar to the image below
+Step 7: Creating your first DAG
+To create your first DAG you need to create a directory named dags 
+Inside the dags directory create a python file example_dag.py and insert the following code.
+Here is a very simple DAG using the BashOperator. This DAG will execute a basic shell command to print a message.
+from airflow import DAG
+from airflow.operators.python import PythonOperator
+from datetime import datetime
+
+# Define a simple Python function to print "Hello"
+def print_hello(task_id, **kwargs):
+    print(f"Task {task_id}: Hello")
+
+# Define the default arguments for the DAG
+default_args = {
+    'owner': 'airflow',
+    'depends_on_past': False,
+    'retries': 1,
+}
+
+# Instantiate the DAG
+with DAG(
+    dag_id='hello_world_dag',
+    default_args=default_args,
+    description='A simple DAG with 3 tasks printing Hello',
+    schedule_interval=None,  # Run manually
+    start_date=datetime(2025, 2, 23),
+    catchup=False,
+) as dag:
+
+    # Define the three tasks
+    task_1 = PythonOperator(
+        task_id='task_1',
+        python_callable=print_hello,
+        op_kwargs={'task_id': '1'},
+    )
+
+    task_2 = PythonOperator(
+        task_id='task_2',
+        python_callable=print_hello,
+        op_kwargs={'task_id': '2'},
+    )
+
+    task_3 = PythonOperator(
+        task_id='task_3',
+        python_callable=print_hello,
+        op_kwargs={'task_id': '3'},
+    )
+
+    # Set the dependencies
+    task_1 >> task_2 >> task_3
+create an example dag
+<create a dag folder> 
+<create example dag (/airflow/dags/example_dag.py)
+trigger the dag from airflow UI
+<How to navigate the airflow UI>
+if you are interested in just setting up airflow you can stop here- think maybe this should be a basic introduction say part 1
