@@ -1,0 +1,51 @@
+[2025-02-23T13:16:58.458+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-23T13:16:58.473+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Temp_elt_postgres.create_processed_weather_data_table scheduled__2025-02-10T00:00:00+00:00 [queued]>
+[2025-02-23T13:16:58.484+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Temp_elt_postgres.create_processed_weather_data_table scheduled__2025-02-10T00:00:00+00:00 [queued]>
+[2025-02-23T13:16:58.485+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-23T13:16:58.515+0000] {taskinstance.py:2889} INFO - Executing <Task(PostgresOperator): create_processed_weather_data_table> on 2025-02-10 00:00:00+00:00
+[2025-02-23T13:16:58.532+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'Temp_elt_postgres', 'create_processed_weather_data_table', 'scheduled__2025-02-10T00:00:00+00:00', '--job-id', '285', '--raw', '--subdir', 'DAGS_FOLDER/weather_etl_postgres.py', '--cfg-path', '/tmp/tmp9gjgrbqe']
+[2025-02-23T13:16:58.543+0000] {standard_task_runner.py:105} INFO - Job 285: Subtask create_processed_weather_data_table
+[2025-02-23T13:16:58.547+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=92) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-23T13:16:58.548+0000] {standard_task_runner.py:72} INFO - Started process 103 to run task
+[2025-02-23T13:16:58.640+0000] {task_command.py:467} INFO - Running <TaskInstance: Temp_elt_postgres.create_processed_weather_data_table scheduled__2025-02-10T00:00:00+00:00 [running]> on host 589d83c9feef
+[2025-02-23T13:16:58.766+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Temp_elt_postgres' AIRFLOW_CTX_TASK_ID='create_processed_weather_data_table' AIRFLOW_CTX_EXECUTION_DATE='2025-02-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-10T00:00:00+00:00'
+[2025-02-23T13:16:58.769+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-23T13:16:58.789+0000] {sql.py:278} INFO - Executing: 
+            create table if not exists processed_weather_data (
+                location VARCHAR(50),
+                region VARCHAR(50),
+                country VARCHAR(50),
+                lat DOUBLE PRECISION,
+                lon DOUBLE PRECISION,
+                "localtime" TIMESTAMP,
+                temperature_c DOUBLE PRECISION ,
+                temperature_f DOUBLE PRECISION,
+                feelslike_c DOUBLE PRECISION,
+                feelslike_f DOUBLE PRECISION,
+                date DATE ,
+                primary key ("localtime", location)
+            )
+        
+[2025-02-23T13:16:58.804+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2025-02-23T13:16:58.973+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2025-02-23T13:16:59.014+0000] {sql.py:553} INFO - Running statement: 
+            create table if not exists processed_weather_data (
+                location VARCHAR(50),
+                region VARCHAR(50),
+                country VARCHAR(50),
+                lat DOUBLE PRECISION,
+                lon DOUBLE PRECISION,
+                "localtime" TIMESTAMP,
+                temperature_c DOUBLE PRECISION ,
+                temperature_f DOUBLE PRECISION,
+                feelslike_c DOUBLE PRECISION,
+                feelslike_f DOUBLE PRECISION,
+                date DATE ,
+                primary key ("localtime", location)
+            )
+        , parameters: None
+[2025-02-23T13:16:59.088+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-23T13:16:59.090+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Temp_elt_postgres, task_id=create_processed_weather_data_table, run_id=scheduled__2025-02-10T00:00:00+00:00, execution_date=20250210T000000, start_date=20250223T131658, end_date=20250223T131659
+[2025-02-23T13:16:59.197+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-23T13:16:59.232+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-23T13:16:59.240+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
