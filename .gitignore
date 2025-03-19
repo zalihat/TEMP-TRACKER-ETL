@@ -4,3 +4,5 @@
 /old-airflow
 /logs
 **/__pycache__/
+.qodo
+.DS_Store

@@ -15,7 +15,8 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
 # sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'tasks')))
 
-from tasks.extract import extract_weather_data
+# from tasks.extract import extract_weather_data
+from utils.utils import extract_weather_data
 # Define the load task
 def load_to_postgres_xcom(**kwargs):
     """
@@ -65,7 +66,7 @@ move_files = BashOperator(
 )
 transform = SparkSubmitOperator(
     task_id='transform_weather_data',
-    application='/opt/airflow/tasks/transform.py',  # Path to your Spark job
+    application='/opt/airflow/utils/transform.py',  # Path to your Spark job
     conn_id='spark_default',  # Airflow Spark connection
     executor_cores=1,
     executor_memory='1g',

@@ -7,7 +7,7 @@ from pyspark.sql.functions import to_timestamp
 
 # Configure logging
 logging.basicConfig(
-    filename="error.log",
+    filename="logs/error.log",
     level=logging.ERROR,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
@@ -23,7 +23,7 @@ def transform_weather_data():
     
     folder_path = "/shared-data/raw"
     processed_output_path = "/shared-data/processed"
-    log_file = "processed_files.log"
+    log_file = "logs/processed_files.log"
   
 
     if os.path.exists(log_file):
