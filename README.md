@@ -4,6 +4,7 @@
 Temp Track ETL is a data pipeline that extracts weather data from an external API, processes it using Apache Spark, and loads the transformed data into a PostgreSQL database. The workflow is orchestrated using Apache Airflow, and the infrastructure is managed using Docker.
 
 ## Architecture
+![ETL Architecture](docs/architecture.jpg)
 - **Data Extraction**: Weather data is extracted from an external API and stored in Parquet format.
 - **Data Transformation**: Apache Spark processes and cleans the data.
 - **Data Loading**: Transformed data is inserted into a PostgreSQL database.
